@@ -1,0 +1,1700 @@
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=889 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+CRON[6291]: pam_unix(cron:session): session closed for user root
+CRON[6292]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+CRON[6291]: pam_unix(cron:session): session opened for user root by (uid=0)
+CRON[6004]: pam_unix(cron:session): session closed for user root
+CRON[6005]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+CRON[6004]: pam_unix(cron:session): session opened for user root by (uid=0)
+CRON[5718]: pam_unix(cron:session): session closed for user root
+CRON[5719]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+CRON[5718]: pam_unix(cron:session): session opened for user root by (uid=0)
+systemd[1]: Finished Daily apt upgrade and clean activities.
+systemd[1]: apt-daily-upgrade.service: Succeeded.
+systemd[1]: Starting Daily apt upgrade and clean activities...
+CRON[5226]: pam_unix(cron:session): session closed for user root
+CRON[5228]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+CRON[5226]: pam_unix(cron:session): session opened for user root by (uid=0)
+systemd[1]: anacron.service: Succeeded.
+anacron[5090]: Normal exit (0 jobs run)
+anacron[5090]: Anacron 2.3 started on 2022-10-02
+systemd[1]: Started Run anacron jobs.
+CRON[5037]: pam_unix(cron:session): session closed for user root
+CRON[5038]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+CRON[5037]: pam_unix(cron:session): session opened for user root by (uid=0)
+systemd[1]: Finished Cleanup of Temporary Directories.
+systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+systemd[1]: Starting Cleanup of Temporary Directories...
+CRON[4740]: pam_unix(cron:session): session closed for user root
+CRON[4741]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+CRON[4740]: pam_unix(cron:session): session opened for user root by (uid=0)
+systemd[1]: packagekit.service: Succeeded.
+PackageKit[1951]: daemon quit
+CRON[4514]: pam_unix(cron:session): session closed for user root
+CRON[4515]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+CRON[4514]: pam_unix(cron:session): session opened for user root by (uid=0)
+systemd[1]: systemd-timedated.service: Succeeded.
+PackageKit[1951]: get-updates transaction /3238_adaebbba from uid 1000 finished with success after 600ms
+systemd[1]: anacron.service: Succeeded.
+anacron[883]: Normal exit (1 job run)
+anacron[883]: Job `cron.daily' terminated
+PackageKit[1951]: get-updates transaction /3237_dabacabe from uid 1000 finished with success after 1752ms
+PackageKit[1951]: refresh-cache transaction /3236_abaadaab from uid 1000 finished with success after 5418ms
+PackageKit[1951]: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+PackageKit[1951]: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+snapd[910]: autorefresh.go:540: auto-refresh: all snaps are up-to-date
+snapd[910]: storehelpers.go:748: cannot refresh: snap has no updates available: "bare", "chromium", "core", "core18", "core20", "exercism", "gnome-3-28-1804", "gnome-3-34-1804", "gnome-3-38-2004", "gtk-common-themes", "heroku", "insomnia", "port", "signal-desktop", "snapd"
+systemd[1]: Started Time & Date Service.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.timedate1'
+systemd[1]: Starting Time & Date Service...
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.23' (uid=0 pid=910 comm="/usr/lib/snapd/snapd " label="unconfined")
+cracklib[2942]: no dictionary update necessary.
+anacron[2914]: Updated timestamp for job `cron.daily' to 2022-10-02
+anacron[883]: Job `cron.daily' started
+CRON[2866]: pam_unix(cron:session): session closed for user root
+CRON[2875]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+CRON[2866]: pam_unix(cron:session): session opened for user root by (uid=0)
+dbus-daemon[888]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+systemd[1]: Condition check resulted in Bluetooth service being skipped.
+dbus-daemon[888]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.78' (uid=1000 pid=2197 comm="/opt/brave.com/brave/brave --enable-crashpad " label="unconfined")
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.kde.runners.baloo'
+org.kde.runners.baloo[2176]: qt5ct: using qt5ct plugin
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='org.kde.runners.baloo' requested by ':1.56' (uid=1000 pid=2167 comm="krunner " label="unconfined")
+PackageKit[1951]: get-updates transaction /3235_bedcecdc from uid 1000 finished with success after 801ms
+systemd[1]: systemd-timedated.service: Succeeded.
+pulseaudio[1693]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+dbus-daemon[888]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+systemd[1]: systemd-hostnamed.service: Succeeded.
+systemd-timesyncd[826]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+systemd[1]: systemd-fsckd.service: Succeeded.
+systemd[1684]: run-user-121.mount: Succeeded.
+systemd[1]: Removed slice User Slice of UID 121.
+systemd[1]: Stopped User Runtime Directory /run/user/121.
+systemd[1]: user-runtime-dir@121.service: Succeeded.
+systemd[1]: run-user-121.mount: Succeeded.
+systemd[1]: Stopping User Runtime Directory /run/user/121...
+systemd[1]: Stopped User Manager for UID 121.
+systemd[1]: user@121.service: Succeeded.
+systemd[1243]: Reached target Exit the Session.
+systemd[1243]: Finished Exit the Session.
+systemd[1243]: systemd-exit.service: Succeeded.
+systemd[1243]: Reached target Shutdown.
+systemd[1243]: Closed REST API socket for snapd user session agent.
+systemd[1243]: snapd.session-agent.socket: Succeeded.
+systemd[1243]: Closed Sound System.
+systemd[1243]: pulseaudio.socket: Succeeded.
+systemd[1243]: Closed debconf communication socket.
+systemd[1243]: pk-debconf-helper.socket: Succeeded.
+systemd[1243]: Closed GnuPG cryptographic agent and passphrase cache.
+systemd[1243]: gpg-agent.socket: Succeeded.
+systemd[1243]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+systemd[1243]: gpg-agent-ssh.socket: Succeeded.
+systemd[1243]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+systemd[1243]: gpg-agent-extra.socket: Succeeded.
+systemd[1243]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+systemd[1243]: gpg-agent-browser.socket: Succeeded.
+systemd[1243]: Closed GnuPG network certificate management daemon.
+systemd[1243]: dirmngr.socket: Succeeded.
+systemd[1243]: Closed D-Bus User Message Bus Socket.
+systemd[1243]: dbus.socket: Succeeded.
+systemd[1243]: Stopped target Timers.
+systemd[1243]: Stopped target Sockets.
+systemd[1243]: Stopped target Paths.
+systemd[1243]: Stopped target Basic System.
+systemd[1243]: Stopped D-Bus User Message Bus.
+systemd[1243]: dbus.service: Succeeded.
+systemd[1243]: Stopping D-Bus User Message Bus...
+systemd[1243]: Stopped target Main User Target.
+systemd[1]: Stopping User Manager for UID 121...
+rtkit-daemon[1255]: Supervising 6 threads of 1 processes of 2 users.
+rtkit-daemon[1255]: Successfully made thread 2106 of process 1693 owned by '1000' RT at priority 5.
+rtkit-daemon[1255]: Supervising 5 threads of 1 processes of 2 users.
+rtkit-daemon[1255]: Supervising 5 threads of 1 processes of 2 users.
+rtkit-daemon[1255]: Successfully made thread 2105 of process 1693 owned by '1000' RT at priority 5.
+rtkit-daemon[1255]: Supervising 4 threads of 1 processes of 2 users.
+systemd[1684]: Startup finished in 5.291s.
+systemd[1684]: Reached target Main User Target.
+systemd[1684]: Started Sound Service.
+systemd[1]: Finished Online ext4 Metadata Check for All Filesystems.
+systemd[1]: e2scrub_all.service: Succeeded.
+rtkit-daemon[1255]: Supervising 4 threads of 1 processes of 2 users.
+rtkit-daemon[1255]: Successfully made thread 2096 of process 1693 owned by '1000' RT at priority 5.
+systemd[1]: Starting Online ext4 Metadata Check for All Filesystems...
+rtkit-daemon[1255]: Supervising 3 threads of 1 processes of 2 users.
+org.kde.KScreen[2009]: kscreen.xrandr: Emitting configChanged()
+org.kde.KScreen[2009]: kscreen.xrandr: Output 480 : connected = true , enabled = true
+org.kde.KScreen[2009]:          Primary: true
+org.kde.KScreen[2009]:          Connection: 0
+org.kde.KScreen[2009]:          MODE: 447
+org.kde.KScreen[2009]:          CRTC: 442
+org.kde.KScreen[2009]:          m_crtc XRandRCrtc(0x55d60e1bf990)
+org.kde.KScreen[2009]:          m_connected: 0
+org.kde.KScreen[2009]: kscreen.xrandr: XRandROutput 480 update
+org.kde.KScreen[2009]: kscreen.xrandr: Output 446 : connected = true , enabled = true
+org.kde.KScreen[2009]:          Primary: false
+org.kde.KScreen[2009]:          Connection: 0
+org.kde.KScreen[2009]:          MODE: 447
+org.kde.KScreen[2009]:          CRTC: 441
+org.kde.KScreen[2009]:          m_crtc XRandRCrtc(0x55d60e1bf190)
+org.kde.KScreen[2009]:          m_connected: 0
+org.kde.KScreen[2009]: kscreen.xrandr: XRandROutput 446 update
+org.kde.KScreen[2009]: kscreen.xrandr: Output 480 : connected = true , enabled = true
+org.kde.KScreen[2009]:          Primary: true
+org.kde.KScreen[2009]:          Connection: 0
+org.kde.KScreen[2009]:          MODE: 447
+org.kde.KScreen[2009]:          CRTC: 442
+org.kde.KScreen[2009]:          m_crtc XRandRCrtc(0x55d60e1bf990)
+org.kde.KScreen[2009]:          m_connected: 0
+org.kde.KScreen[2009]: kscreen.xrandr: XRandROutput 480 update
+org.kde.KScreen[2009]: kscreen.xrandr: Output 446 : connected = true , enabled = true
+org.kde.KScreen[2009]:          Primary: false
+org.kde.KScreen[2009]:          Connection: 0
+org.kde.KScreen[2009]:          MODE: 447
+org.kde.KScreen[2009]:          CRTC: 441
+org.kde.KScreen[2009]:          m_crtc XRandRCrtc(0x55d60e1bf190)
+org.kde.KScreen[2009]:          m_connected: 0
+org.kde.KScreen[2009]: kscreen.xrandr: XRandROutput 446 update
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Subpixel Order:  0
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Connection:  "Connected"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Rotation:  "Rotate_0"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Mode:  447
+org.kde.KScreen[2009]: kscreen.xcb.helper:         CRTC:  442
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Output:  480
+org.kde.KScreen[2009]: kscreen.xcb.helper: RRNotify_OutputChange
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Subpixel Order:  0
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Connection:  "Connected"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Rotation:  "Rotate_0"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Mode:  447
+org.kde.KScreen[2009]: kscreen.xcb.helper:         CRTC:  441
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Output:  446
+org.kde.KScreen[2009]: kscreen.xcb.helper: RRNotify_OutputChange
+org.kde.KScreen[2009]: kscreen.xcb.helper:         SizeMM:  1204 341
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Size:  7680 2160
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Size ID: 65535
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Rotation:  "Rotate_0"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Root: 489
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Window: 65011717
+org.kde.KScreen[2009]: kscreen.xcb.helper: RRScreenChangeNotify
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Subpixel Order:  0
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Connection:  "Connected"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Rotation:  "Rotate_0"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Mode:  447
+org.kde.KScreen[2009]: kscreen.xcb.helper:         CRTC:  442
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Output:  480
+org.kde.KScreen[2009]: kscreen.xcb.helper: RRNotify_OutputChange
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Subpixel Order:  0
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Connection:  "Connected"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Rotation:  "Rotate_0"
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Mode:  447
+org.kde.KScreen[2009]: kscreen.xcb.helper:         CRTC:  441
+org.kde.KScreen[2009]: kscreen.xcb.helper:         Output:  446
+org.kde.KScreen[2009]: kscreen.xcb.helper: RRNotify_OutputChange
+org.kde.KScreen[2009]: kscreen.xrandr: XRandR::setConfig done!
+org.kde.KScreen[2009]:          New primary: 480
+org.kde.KScreen[2009]: kscreen.xrandr: RRSetOutputPrimary
+org.kde.KScreen[2009]:          Primary: true
+org.kde.KScreen[2009]:          Connection: 0
+org.kde.KScreen[2009]:          MODE: 447
+org.kde.KScreen[2009]:          CRTC: 442
+org.kde.KScreen[2009]:          m_crtc XRandRCrtc(0x55d60e1bf990)
+org.kde.KScreen[2009]:          m_connected: 0
+org.kde.KScreen[2009]: kscreen.xrandr: XRandROutput 480 update
+org.kde.KScreen[2009]: kscreen.xrandr:         Result:  0
+org.kde.KScreen[2009]:          Rotation: 1
+org.kde.KScreen[2009]:          Mode: 447 KScreen::Mode(Id: "447" , Size: QSize(3840, 2160) @ 59.9966 )
+org.kde.KScreen[2009]:          Pos: QPoint(3840,0)
+org.kde.KScreen[2009]:          CRTC: 442
+org.kde.KScreen[2009]:          Output: 480 ( "HDMI-1" )
+org.kde.KScreen[2009]: kscreen.xrandr: RRSetCrtcConfig (change output)
+org.kde.KScreen[2009]:          Primary: false
+org.kde.KScreen[2009]:          Connection: 0
+org.kde.KScreen[2009]:          MODE: 447
+org.kde.KScreen[2009]:          CRTC: 441
+org.kde.KScreen[2009]:          m_crtc XRandRCrtc(0x55d60e1bf190)
+org.kde.KScreen[2009]:          m_connected: 0
+org.kde.KScreen[2009]: kscreen.xrandr: XRandROutput 446 update
+org.kde.KScreen[2009]: kscreen.xrandr:         Result:  0
+org.kde.KScreen[2009]:          Rotation: 1
+org.kde.KScreen[2009]:          Mode: 447 KScreen::Mode(Id: "447" , Size: QSize(3840, 2160) @ 59.9966 )
+org.kde.KScreen[2009]:          Pos: QPoint(0,0)
+org.kde.KScreen[2009]:          CRTC: 441
+org.kde.KScreen[2009]:          Output: 446 ( "HDMI-0" )
+org.kde.KScreen[2009]: kscreen.xrandr: RRSetCrtcConfig (change output)
+org.kde.KScreen[2009]: kscreen.xrandr:         Enable outputs: false
+org.kde.KScreen[2009]: kscreen.xrandr:                  (446, 480)
+org.kde.KScreen[2009]: kscreen.xrandr:         Change outputs: true
+org.kde.KScreen[2009]: kscreen.xrandr:         Disable outputs: false
+org.kde.KScreen[2009]: kscreen.xrandr:         Change Screen Size: false
+org.kde.KScreen[2009]:                  New: 480
+org.kde.KScreen[2009]: kscreen.xrandr:                 Old: 446
+org.kde.KScreen[2009]:          Primary Output: true
+org.kde.KScreen[2009]: kscreen.xrandr: Actions to perform:
+org.kde.KScreen[2009]: kscreen.xrandr: Needed CRTCs:  2
+org.kde.KScreen[2009]: kscreen.xrandr: Requested screen size is QSize(7680, 2160)
+org.kde.KScreen[2009]: kscreen.xrandr: XRandR::setConfig
+systemd[1684]: Started Bluetooth OBEX service.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.bluez.obex'
+obexd[2081]: OBEX daemon 5.53
+systemd[1684]: Starting Bluetooth OBEX service...
+systemd[1684]: Started Portal service.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.freedesktop.portal.Desktop'
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating via systemd: service name='org.bluez.obex' unit='dbus-org.bluez.obex.service' requested by ':1.12' (uid=1000 pid=1786 comm="kded5 " label="unconfined")
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.freedesktop.secrets'
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='org.freedesktop.secrets' requested by ':1.43' (uid=1000 pid=2024 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+org.freedesktop.impl.portal.desktop.kde[2056]: xdp-kde: Desktop portal registered successfully
+org.freedesktop.impl.portal.desktop.kde[2056]: xdp-kde-wayland-integration: "EGL version: 1.4"
+org.freedesktop.impl.portal.desktop.kde[2056]: xdp-kde-wayland-integration: Egl initialization succeeded
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.freedesktop.impl.portal.desktop.kde'
+org.freedesktop.impl.portal.desktop.kde[2056]: qt5ct: using qt5ct plugin
+udisksd[918]: Mounted /dev/sda1 at /media/justinian/79AC6A266E10806B on behalf of uid 1000
+systemd[1]: Finished Clean the /media/justinian/79AC6A266E10806B mount point.
+ntfs-3g[2058]: Global ownership and permissions enforced, configuration type 7
+ntfs-3g[2058]: Mount options: nodev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,rw,default_permissions,fsname=/dev/sda1,blkdev,blksize=4096
+ntfs-3g[2058]: Cmdline options: rw,nodev,nosuid,windows_names,uid=1000,gid=1000,uhelper=udisks2
+ntfs-3g[2058]: Mounted /dev/sda1 (Read-Write, label "", NTFS 3.1)
+ntfs-3g[2058]: Version 2017.3.23AR.3 integrated FUSE 28
+org.kde.KScreen[2009]: kscreen.xcb.helper: Event Error:  147
+org.kde.KScreen[2009]: kscreen.xcb.helper: Event Base:  89
+org.kde.KScreen[2009]: kscreen.xcb.helper: Detected XRandR 1.6
+org.kde.KScreen[2009]: kscreen.xrandr: Connected output 480 to CRTC 442
+org.kde.KScreen[2009]: kscreen.xrandr: Connected output 446 to CRTC 441
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='org.freedesktop.impl.portal.desktop.kde' requested by ':1.43' (uid=1000 pid=2024 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+dbus-daemon[888]: [system] Successfully activated service 'org.kde.powerdevil.backlighthelper'
+org.kde.powerdevil.backlighthelper[2047]: powerdevil: no kernel backlight interface found
+dbus-daemon[888]: [system] Activating service name='org.kde.powerdevil.backlighthelper' requested by ':1.60' (uid=1000 pid=1967 comm="/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdev" label="unconfined") (using servicehelper)
+dbus-daemon[888]: [system] Successfully activated service 'org.kde.powerdevil.discretegpuhelper'
+systemd[1684]: Started flatpak document portal service.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.freedesktop.portal.Documents'
+systemd[1684]: Started sandboxed app permission store.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+systemd[1684]: Starting sandboxed app permission store...
+dbus-daemon[888]: [system] Activating service name='org.kde.powerdevil.discretegpuhelper' requested by ':1.60' (uid=1000 pid=1967 comm="/usr/lib/x86_64-linux-gnu/libexec/org_kde_powerdev" label="unconfined") (using servicehelper)
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.45' (uid=1000 pid=2032 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+systemd[1684]: Starting flatpak document portal service...
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.kde.KScreen'
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.43' (uid=1000 pid=2024 comm="/usr/libexec/xdg-desktop-portal " label="unconfined")
+org.kde.KScreen[2009]: qt5ct: using qt5ct plugin
+systemd[1684]: Starting Portal service...
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.41' (uid=1000 pid=1988 comm="/usr/bin/pulseeffects --gapplication-service " label="unconfined")
+udisksd[918]: Mounted /dev/sdc4 at /media/justinian/E668FFB668FF8419 on behalf of uid 1000
+udisksd[918]: Mounted /dev/sdb1 at /media/justinian/fde8d51e-489f-466d-8c8c-7665567f7e94 on behalf of uid 1000
+systemd[1]: Finished Clean the /media/justinian/E668FFB668FF8419 mount point.
+systemd[1]: Finished Clean the /media/justinian/fde8d51e-489f-466d-8c8c-7665567f7e94 mount point.
+systemd[1]: Created slice system-clean\x2dmount\x2dpoint.slice.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='org.kde.KScreen' requested by ':1.12' (uid=1000 pid=1786 comm="kded5 " label="unconfined")
+ntfs-3g[2002]: Global ownership and permissions enforced, configuration type 7
+ntfs-3g[2002]: Mount options: nodev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,rw,default_permissions,fsname=/dev/sdc4,blkdev,blksize=4096
+ntfs-3g[2002]: Cmdline options: rw,nodev,nosuid,windows_names,uid=1000,gid=1000,uhelper=udisks2
+ntfs-3g[2002]: Mounted /dev/sdc4 (Read-Write, label "", NTFS 3.1)
+ntfs-3g[2002]: Version 2017.3.23AR.3 integrated FUSE 28
+kernel: EXT4-fs (sdb1): mounted filesystem with ordered data mode. Opts: (null)
+systemd[1]: Started PackageKit Daemon.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+PackageKit[1951]: daemon start
+systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+systemd[1]: Starting PackageKit Daemon...
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.55' (uid=1000 pid=1920 comm="/usr/lib/x86_64-linux-gnu/libexec/DiscoverNotifier" label="unconfined")
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.kde.ActivityManager'
+org.kde.ActivityManager[1881]: qt5ct: using qt5ct plugin
+polkitd(authority=local)[903]: Registered Authentication Agent for unix-session:3 (system bus name :1.54 [/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1], object path /org/kde/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='org.kde.ActivityManager' requested by ':1.12' (uid=1000 pid=1786 comm="kded5 " label="unconfined")
+systemd[1684]: Started Virtual filesystem service.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.gtk.vfs.Daemon'
+systemd[1684]: Starting Virtual filesystem service...
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.23' (uid=1000 pid=1807 comm="/usr/bin/kglobalaccel5 " label="unconfined")
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'ca.desrt.dconf'
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='ca.desrt.dconf' requested by ':1.18' (uid=1000 pid=1820 comm="/usr/bin/gsettings set org.gnome.desktop.a11y.appl" label="unconfined")
+rtkit-daemon[1255]: Supervising 3 threads of 1 processes of 2 users.
+rtkit-daemon[1255]: Successfully made thread 1818 of process 1693 owned by '1000' RT at priority 5.
+rtkit-daemon[1255]: Supervising 2 threads of 1 processes of 2 users.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.kde.kglobalaccel'
+org.kde.kglobalaccel[1807]: qt5ct: using qt5ct plugin
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating service name='org.kde.kglobalaccel' requested by ':1.12' (uid=1000 pid=1786 comm="kded5 " label="unconfined")
+at-spi-bus-launcher[1799]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+at-spi-bus-launcher[1768]: dbus-daemon[1768]: Successfully activated service 'org.a11y.atspi.Registry'
+at-spi-bus-launcher[1768]: dbus-daemon[1768]: Activating service name='org.a11y.atspi.Registry' requested by ':1.1' (uid=1000 pid=1770 comm="/usr/bin/ksplashqml org.kde.breeze.desktop " label="unconfined")
+systemd[1684]: Started Accessibility services bus.
+dbus-daemon[1703]: [session uid=1000 pid=1703] Successfully activated service 'org.a11y.Bus'
+systemd[1684]: Starting Accessibility services bus...
+dbus-daemon[1703]: [session uid=1000 pid=1703] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.6' (uid=1000 pid=1761 comm="/usr/bin/kapplymousetheme breeze_cursors  " label="unconfined")
+systemd[1243]: pulseaudio.service: Succeeded.
+systemd-logind[915]: Removed session 1.
+systemd-logind[915]: Session 1 logged out. Waiting for processes to exit.
+systemd[1]: session-1.scope: Succeeded.
+sddm[1061]: Greeter stopped.
+sddm[1061]: Auth: sddm-helper exited successfully
+sddm-helper[1239]: [PAM] Ended.
+sddm-helper[1239]: pam_unix(sddm-greeter:session): session closed for user sddm
+sddm-helper[1239]: [PAM] Closing session
+rtkit-daemon[1255]: Supervising 8 threads of 2 processes of 2 users.
+rtkit-daemon[1255]: Successfully made thread 1709 of process 1693 owned by '1000' RT at priority 5.
+rtkit-daemon[1255]: Supervising 7 threads of 2 processes of 2 users.
+sddm[1061]: Session started
+sddm-helper[1706]: Adding cookie to "/home/justinian/.Xauthority"
+sddm-helper[1665]: Starting: "/etc/sddm/Xsession \"/usr/bin/startplasma-x11\""
+sddm-helper[1704]: pam_kwallet5: final socket path: /run/user/1000/kwallet5.socket
+pulseaudio[1693]: Failed to load module "module-alsa-card" (argument: "device_id="1" name="usb-AKAI_MPK_Mini_Mk_II_0001-01" card_name="alsa_card.usb-AKAI_MPK_Mini_Mk_II_0001-01" namereg_fail=false tsched=yes fixed_latency_range=no ignore_dB=no deferred_volume=yes use_ucm=yes avoid_resampling=no card_properties="module-udev-detect.discovered=1""): initialization failed.
+pulseaudio[1693]: Failed to find a working profile.
+dbus-daemon[1703]: [session uid=1000 pid=1703] AppArmor D-Bus mediation is enabled
+systemd[1684]: Started D-Bus User Message Bus.
+rtkit-daemon[1255]: Supervising 7 threads of 2 processes of 2 users.
+rtkit-daemon[1255]: Successfully made thread 1693 of process 1693 owned by '1000' high priority at nice level -11.
+sddm-helper[1665]: pam_kwallet5(sddm:session): pam_kwallet5: pam_sm_open_session
+sddm-helper[1665]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+systemd[1684]: Failed to start Dunst notification daemon.
+systemd[1684]: dunst.service: Failed with result 'exit-code'.
+systemd[1684]: dunst.service: Main process exited, code=exited, status=1/FAILURE
+systemd[1684]: Starting Sound Service...
+systemd[1]: Started Session 3 of user justinian.
+systemd[1684]: Starting Dunst notification daemon...
+systemd[1]: Started User Manager for UID 1000.
+systemd[1684]: Reached target Basic System.
+systemd[1684]: Reached target Sockets.
+systemd[1684]: Listening on D-Bus User Message Bus Socket.
+systemd[1684]: Listening on REST API socket for snapd user session agent.
+systemd[1684]: Listening on Sound System.
+systemd[1684]: Listening on debconf communication socket.
+systemd[1684]: Listening on GnuPG cryptographic agent and passphrase cache.
+systemd[1684]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+systemd[1684]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+systemd[1684]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+dunst[1692]: CRITICAL: Cannot open X11 display.
+systemd[1684]: Listening on GnuPG network certificate management daemon.
+systemd[1684]: Starting D-Bus User Message Bus Socket.
+systemd[1684]: Reached target Timers.
+systemd[1684]: Reached target Paths.
+systemd[1684]: pam_unix(systemd-user:session): session opened for user justinian by (uid=0)
+systemd[1]: Starting User Manager for UID 1000...
+systemd[1]: Finished User Runtime Directory /run/user/1000.
+systemd-logind[915]: New session 3 of user justinian.
+systemd[1]: Starting User Runtime Directory /run/user/1000...
+systemd[1]: Created slice User Slice of UID 1000.
+sddm-helper[1665]: pam_unix(sddm:session): session opened for user justinian by (uid=0)
+sddm-helper[1665]: pam_kwallet5(sddm:setcred): pam_kwallet5: pam_sm_setcred
+sddm-greeter[1251]: Message received from daemon: LoginSucceeded
+sddm[1061]: Authenticated successfully
+sddm-helper[1665]: pam_kwallet5(sddm:auth): (null): pam_sm_authenticate
+sddm-helper[1665]: [PAM] returning.
+sddm-helper[1665]: gkr-pam: stashed password to try later in open session
+sddm-helper[1665]: gkr-pam: unable to locate daemon control file
+sddm-helper[1665]: [PAM] Conversation with 1 messages
+sddm-helper[1665]: [PAM] Preparing to converse...
+sddm-helper[1665]: [PAM] Authenticating...
+sddm-helper[1665]: [PAM] Starting...
+sddm[1061]: Session "plasma.desktop" selected, command: "/usr/bin/startplasma-x11"
+sddm[1061]: Reading from "/usr/share/xsessions/plasma.desktop"
+sddm[1061]: Reading from "/usr/share/xsessions/plasma.desktop"
+sddm[1061]: Message received from greeter: Login
+sddm-greeter[1251]: Reading from "/usr/share/xsessions/plasma.desktop"
+avahi-daemon[885]: Registering new address record for fe80::9c2e:fdff:fe33:f1e on vethcea84cd.*.
+avahi-daemon[885]: New relevant interface vethcea84cd.IPv6 for mDNS.
+avahi-daemon[885]: Joining mDNS multicast group on interface vethcea84cd.IPv6 with address fe80::9c2e:fdff:fe33:f1e.
+avahi-daemon[885]: Registering new address record for fe80::42:7cff:feec:c495 on br-17f607787fe3.*.
+avahi-daemon[885]: New relevant interface br-17f607787fe3.IPv6 for mDNS.
+avahi-daemon[885]: Joining mDNS multicast group on interface br-17f607787fe3.IPv6 with address fe80::42:7cff:feec:c495.
+dockerd[1340]: time="2022-10-02T10:11:08.444906035+02:00" level=info msg="API listen on /run/docker.sock"
+systemd[1]: Startup finished in 15.303s (firmware) + 6.120s (loader) + 3.148s (kernel) + 8.382s (userspace) = 32.955s.
+systemd[1]: Finished Update UTMP about System Runlevel Changes.
+systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+systemd[1]: Starting Update UTMP about System Runlevel Changes...
+systemd[1]: Reached target Graphical Interface.
+systemd[1]: Reached target Multi-User System.
+systemd[1]: Started Docker Application Container Engine.
+dockerd[1340]: time="2022-10-02T10:11:08.414748498+02:00" level=info msg="Daemon has completed initialization"
+dockerd[1340]: time="2022-10-02T10:11:08.414050187+02:00" level=info msg="Docker daemon" commit=f756502 graphdriver(s)=overlay2 version=20.10.16
+systemd[1243]: var-lib-docker-overlay2-opaque\x2dbug\x2dcheck472578144-merged.mount: Succeeded.
+systemd[1]: var-lib-docker-overlay2-opaque\x2dbug\x2dcheck472578144-merged.mount: Succeeded.
+dockerd[1340]: time="2022-10-02T10:11:08.381455446+02:00" level=info msg="Loading containers: done."
+systemd[1243]: Startup finished in 3.163s.
+systemd[1243]: Reached target Main User Target.
+systemd[1243]: Started Sound Service.
+NetworkManager[889]: <info>  [1664698268.3457] device (br-17f607787fe3): carrier: link connected
+NetworkManager[889]: <info>  [1664698268.3440] device (vethcea84cd): carrier: link connected
+kernel: IPv6: ADDRCONF(NETDEV_CHANGE): br-17f607787fe3: link becomes ready
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered forwarding state
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered blocking state
+kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethcea84cd: link becomes ready
+systemd[1]: Condition check resulted in Bluetooth service being skipped.
+dbus-daemon[888]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.42' (uid=121 pid=1250 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+rtkit-daemon[1255]: Supervising 6 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Successfully made thread 1613 of process 1250 owned by '121' RT at priority 5.
+kernel: eth0: renamed from vethd0c7f7c
+rtkit-daemon[1255]: Supervising 5 threads of 1 processes of 1 users.
+kernel: cgroup: cgroup: disabling cgroup2 socket matching due to net_prio or net_cls activation
+containerd[992]: time="2022-10-02T10:11:08.091912910+02:00" level=info msg="starting signal loop" namespace=moby path=/run/containerd/io.containerd.runtime.v2.task/moby/6874d03ca75bb7b7a98a1617a84fe31f5f750fe2c57569edf7675a561756cf52 pid=1546 runtime=io.containerd.runc.v2
+containerd[992]: time="2022-10-02T10:11:08.091763318+02:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+containerd[992]: time="2022-10-02T10:11:08.091751620+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+containerd[992]: time="2022-10-02T10:11:08.091696666+02:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+dockerd[1340]: time="2022-10-02T10:11:08.032924056+02:00" level=info msg="IPv6 enabled; Adding default IPv6 external servers: [nameserver 2001:4860:4860::8888 nameserver 2001:4860:4860::8844]"
+dockerd[1340]: time="2022-10-02T10:11:08.032899790+02:00" level=info msg="No non-localhost DNS nameservers are left in resolv.conf. Using default external servers: [nameserver 8.8.8.8 nameserver 8.8.4.4]"
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered disabled state
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered forwarding state
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered blocking state
+kernel: device vethcea84cd entered promiscuous mode
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered disabled state
+kernel: br-17f607787fe3: port 1(vethcea84cd) entered blocking state
+systemd-udevd[457]: vethcea84cd: Could not generate persistent MAC: No data available
+systemd-udevd[457]: Using default interface naming scheme 'v245'.
+NetworkManager[889]: <info>  [1664698268.0250] manager: (vethcea84cd): new Veth device (/org/freedesktop/NetworkManager/Devices/6)
+systemd-udevd[457]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+systemd-udevd[452]: vethd0c7f7c: Could not generate persistent MAC: No data available
+systemd-udevd[452]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+NetworkManager[889]: <info>  [1664698268.0243] manager: (vethd0c7f7c): new Veth device (/org/freedesktop/NetworkManager/Devices/5)
+dockerd[1340]: time="2022-10-02T10:11:07.980396561+02:00" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+NetworkManager[889]: <info>  [1664698267.9632] device (docker0): Activation: successful, device activated.
+NetworkManager[889]: <info>  [1664698267.9623] device (docker0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9621] device (docker0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9598] device (docker0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9596] device (docker0): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9595] device (docker0): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9592] device (docker0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9584] device (docker0): Activation: starting connection 'docker0' (60b9306f-447c-41ba-857f-30b80d4e66ac)
+NetworkManager[889]: <info>  [1664698267.9580] device (docker0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+avahi-daemon[885]: Registering new address record for 172.17.0.1 on docker0.IPv4.
+avahi-daemon[885]: New relevant interface docker0.IPv4 for mDNS.
+NetworkManager[889]: <info>  [1664698267.9560] device (docker0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+avahi-daemon[885]: Joining mDNS multicast group on interface docker0.IPv4 with address 172.17.0.1.
+NetworkManager[889]: <info>  [1664698267.9433] device (br-17f607787fe3): Activation: successful, device activated.
+NetworkManager[889]: <info>  [1664698267.9425] device (br-17f607787fe3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9423] device (br-17f607787fe3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9390] device (br-17f607787fe3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+systemd-udevd[452]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+NetworkManager[889]: <info>  [1664698267.9366] device (br-17f607787fe3): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9364] device (br-17f607787fe3): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9362] device (br-17f607787fe3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698267.9358] manager: (docker0): new Bridge device (/org/freedesktop/NetworkManager/Devices/4)
+NetworkManager[889]: <info>  [1664698267.9346] device (br-17f607787fe3): Activation: starting connection 'br-17f607787fe3' (9398551f-1be2-4c92-b63e-9a86b3c7206d)
+NetworkManager[889]: <info>  [1664698267.9340] device (br-17f607787fe3): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+avahi-daemon[885]: Registering new address record for 172.20.0.1 on br-17f607787fe3.IPv4.
+avahi-daemon[885]: New relevant interface br-17f607787fe3.IPv4 for mDNS.
+NetworkManager[889]: <info>  [1664698267.9320] device (br-17f607787fe3): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+avahi-daemon[885]: Joining mDNS multicast group on interface br-17f607787fe3.IPv4 with address 172.20.0.1.
+systemd-udevd[452]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+systemd-udevd[452]: Using default interface naming scheme 'v245'.
+NetworkManager[889]: <info>  [1664698267.9070] manager: (br-17f607787fe3): new Bridge device (/org/freedesktop/NetworkManager/Devices/3)
+kernel: Initializing XFRM netlink socket
+unknown: Started bpfilter
+kernel: bpfilter: Loaded bpfilter_umh pid 1380
+kernel: Bridge firewalling registered
+kernel: bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+dockerd[1340]: time="2022-10-02T10:11:07.811965053+02:00" level=info msg="Loading containers: start."
+dockerd[1340]: time="2022-10-02T10:11:07.811686559+02:00" level=warning msg="Your kernel does not support cgroup blkio weight_device"
+dockerd[1340]: time="2022-10-02T10:11:07.811682570+02:00" level=warning msg="Your kernel does not support cgroup blkio weight"
+dockerd[1340]: time="2022-10-02T10:11:07.811677691+02:00" level=warning msg="Your kernel does not support CPU realtime scheduler"
+dockerd[1340]: time="2022-10-02T10:11:07.811656252+02:00" level=warning msg="Your kernel does not support swap memory limit"
+dockerd[1340]: time="2022-10-02T10:11:07.679529301+02:00" level=info msg="[graphdriver] using prior storage driver: overlay2"
+systemd[1]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport152985924-merged.mount: Succeeded.
+systemd[1243]: var-lib-docker-overlay2-check\x2doverlayfs\x2dsupport152985924-merged.mount: Succeeded.
+dockerd[1340]: time="2022-10-02T10:11:07.642108251+02:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.642101023+02:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.642078845+02:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.642064643+02:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.637399719+02:00" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.637375643+02:00" level=info msg="ccResolverWrapper: sending update to cc: {[{unix:///run/containerd/containerd.sock  <nil> 0 <nil>}] <nil> <nil>}" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.636873087+02:00" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+dockerd[1340]: time="2022-10-02T10:11:07.636849009+02:00" level=info msg="parsed scheme: \"unix\"" module=grpc
+kernel: audit: type=1400 audit(1664698267.628:53): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1371 comm="apparmor_parser"
+kernel: kauditd_printk_skb: 18 callbacks suppressed
+audit[1371]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=1371 comm="apparmor_parser"
+dockerd[1340]: time="2022-10-02T10:11:07.604143862+02:00" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+dockerd[1340]: time="2022-10-02T10:11:07.597601856+02:00" level=info msg="Starting up"
+sddm-greeter[1251]: Message received from daemon: HostName
+sddm-greeter[1251]: Message received from daemon: Capabilities
+whoopsie[1342]: [10:11:07] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+whoopsie[1342]: [10:11:07] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+whoopsie[1342]: [10:11:07] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+whoopsie[1342]: [10:11:07] Using lock path: /var/lock/whoopsie/lock
+systemd[1]: Started Tool to automatically collect and submit kernel crash signatures.
+systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+systemd[1]: kerneloops.service: Found left-over process 1343 (kerneloops) in control group while starting unit. Ignoring.
+systemd[1]: Started crash report submission daemon.
+systemd[1]: Starting Tool to automatically collect and submit kernel crash signatures...
+systemd[1]: Starting Docker Application Container Engine...
+systemd[1]: Reached target Network is Online.
+systemd[1]: Finished Network Manager Wait Online.
+NetworkManager[889]: <info>  [1664698267.3680] manager: startup complete
+NetworkManager[889]: <info>  [1664698267.3674] manager: NetworkManager state is now CONNECTED_GLOBAL
+NetworkManager[889]: <info>  [1664698267.3670] device (enp3s0): Activation: successful, device activated.
+NetworkManager[889]: <info>  [1664698267.3667] policy: set 'Wired connection 1' (enp3s0) as default for IPv4 routing and DNS
+NetworkManager[889]: <info>  [1664698267.3667] manager: NetworkManager state is now CONNECTED_SITE
+NetworkManager[889]: <info>  [1664698267.3661] manager: NetworkManager state is now CONNECTED_LOCAL
+NetworkManager[889]: <info>  [1664698267.3658] device (enp3s0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+NetworkManager[889]: <info>  [1664698267.3656] device (enp3s0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+NetworkManager[889]: <info>  [1664698267.3634] device (enp3s0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+NetworkManager[889]: <info>  [1664698267.3626] dhcp4 (enp3s0): state changed unknown -> bound
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_subnet_mask => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_static_routes => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_routers    => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_root_path  => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_rfc3442_classless_static_routes => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_ntp_servers => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_nis_servers => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_nis_domain => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_ms_classless_static_routes => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_interface_mtu => '1'
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_host_name  => '1'
+avahi-daemon[885]: New relevant interface enp3s0.IPv4 for mDNS.
+NetworkManager[889]: <info>  [1664698267.3625] dhcp4 (enp3s0): option requested_domain_search => '1'
+NetworkManager[889]: <info>  [1664698267.3624] dhcp4 (enp3s0): option requested_domain_name_servers => '1'
+NetworkManager[889]: <info>  [1664698267.3624] dhcp4 (enp3s0): option requested_domain_name => '1'
+NetworkManager[889]: <info>  [1664698267.3624] dhcp4 (enp3s0): option requested_broadcast_address => '1'
+systemd[1]: dmesg.service: Succeeded.
+systemd[1]: ondemand.service: Succeeded.
+set-cpufreq[902]: Setting powersave scheduler for all CPUs
+sddm-greeter[1251]: Adding view for "HDMI-1" QRect(3840,0 3840x2160)
+sddm-greeter[1251]: Loading file:///usr/share/sddm/themes/ubuntu-theme/Main.qml...
+sddm-greeter[1251]: Adding view for "HDMI-0" QRect(0,0 3840x2160)
+rtkit-daemon[1255]: Supervising 5 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Successfully made thread 1309 of process 1250 owned by '121' RT at priority 5.
+rtkit-daemon[1255]: Supervising 4 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Supervising 4 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Successfully made thread 1305 of process 1250 owned by '121' RT at priority 5.
+rtkit-daemon[1255]: Supervising 3 threads of 1 processes of 1 users.
+systemd[1]: Started Daemon for power management.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.UPower'
+systemd[1]: Starting Daemon for power management...
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.32' (uid=121 pid=1251 comm="/usr/bin/sddm-greeter --socket /tmp/sddm-:0-eqySLZ" label="unconfined")
+kernel: usb 3-14: reset high-speed USB device number 6 using xhci_hcd
+sddm-greeter[1251]: QObject::installEventFilter(): Cannot filter events for objects in a different thread.
+sddm-greeter[1251]: QObject: Cannot create children for a parent that is in a different thread.
+                     (Parent is QGuiApplication(0x7ffeb4597170), parent's thread is QThread(0x5621842c1a00), current thread is QThread(0x56218469cc20)
+sddm-greeter[1251]: QObject: Cannot create children for a parent that is in a different thread.
+                     (Parent is QGuiApplication(0x7ffeb4597170), parent's thread is QThread(0x5621842c1a00), current thread is QThread(0x56218469cc20)
+sddm-greeter[1251]: QObject: Cannot create children for a parent that is in a different thread.
+                     (Parent is QGuiApplication(0x7ffeb4597170), parent's thread is QThread(0x5621842c1a00), current thread is QThread(0x56218469cc20)
+sddm-greeter[1251]: Loading file:///usr/share/sddm/themes/ubuntu-theme/Main.qml...
+sddm[1061]: Message received from greeter: Connect
+sddm-greeter[1251]: Connected to the daemon.
+sddm-greeter[1251]: Loading theme configuration from "/usr/share/sddm/themes/ubuntu-theme/theme.conf"
+sddm-greeter[1251]: Reading from "/usr/share/xsessions/plasma.desktop"
+sddm-greeter[1251]: Reading from "/usr/share/xsessions/i3.desktop"
+sddm-greeter[1251]: Reading from "/usr/share/xsessions/i3-with-shmlog.desktop"
+rtkit-daemon[1255]: Supervising 3 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Successfully made thread 1260 of process 1250 owned by '121' RT at priority 5.
+rtkit-daemon[1255]: Supervising 2 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Supervising 2 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Successfully made thread 1259 of process 1250 owned by '121' RT at priority 5.
+sddm-greeter[1251]: using qt5ct plugin
+rtkit-daemon[1255]: Supervising 1 threads of 1 processes of 1 users.
+pulseaudio[1250]: Failed to load module "module-alsa-card" (argument: "device_id="1" name="usb-AKAI_MPK_Mini_Mk_II_0001-01" card_name="alsa_card.usb-AKAI_MPK_Mini_Mk_II_0001-01" namereg_fail=false tsched=yes fixed_latency_range=no ignore_dB=no deferred_volume=yes use_ucm=yes avoid_resampling=no card_properties="module-udev-detect.discovered=1""): initialization failed.
+pulseaudio[1250]: Failed to find a working profile.
+rtkit-daemon[1255]: Supervising 1 threads of 1 processes of 1 users.
+rtkit-daemon[1255]: Successfully made thread 1250 of process 1250 owned by '121' high priority at nice level -11.
+avahi-daemon[885]: Registering new address record for fe80::b8cb:67ad:90b5:58e5 on enp3s0.*.
+avahi-daemon[885]: New relevant interface enp3s0.IPv6 for mDNS.
+avahi-daemon[885]: Joining mDNS multicast group on interface enp3s0.IPv6 with address fe80::b8cb:67ad:90b5:58e5.
+dbus-daemon[1254]: [session uid=121 pid=1254] AppArmor D-Bus mediation is enabled
+NetworkManager[889]: <info>  [1664698265.3544] dhcp4 (enp3s0): activation: beginning transaction (timeout in 45 seconds)
+NetworkManager[889]: <info>  [1664698265.3542] device (enp3s0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+NetworkManager[889]: <info>  [1664698265.3539] device (enp3s0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+NetworkManager[889]: <info>  [1664698265.3538] manager: NetworkManager state is now CONNECTING
+NetworkManager[889]: <info>  [1664698265.3536] device (enp3s0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+NetworkManager[889]: <info>  [1664698265.3535] device (enp3s0): Activation: starting connection 'Wired connection 1' (e8d98bab-3e18-34c9-81dc-7ca2204ad010)
+NetworkManager[889]: <info>  [1664698265.3532] policy: auto-activating connection 'Wired connection 1' (e8d98bab-3e18-34c9-81dc-7ca2204ad010)
+NetworkManager[889]: <info>  [1664698265.3527] device (enp3s0): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp3s0: link becomes ready
+kernel: r8169 0000:03:00.0 enp3s0: Link is Up - 1Gbps/Full - flow control off
+NetworkManager[889]: <info>  [1664698265.3525] device (enp3s0): carrier: link connected
+rtkit-daemon[1255]: Watchdog thread running.
+rtkit-daemon[1255]: Canary thread running.
+rtkit-daemon[1255]: Running.
+rtkit-daemon[1255]: Successfully limited resources.
+rtkit-daemon[1255]: Successfully dropped privileges.
+rtkit-daemon[1255]: Successfully called chroot.
+systemd[1]: Started RealtimeKit Scheduling Policy Service.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.28' (uid=121 pid=1250 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+sddm-greeter[1251]: High-DPI autoscaling not Enabled
+systemd[1243]: Failed to start Dunst notification daemon.
+systemd[1243]: dunst.service: Failed with result 'exit-code'.
+systemd[1243]: dunst.service: Main process exited, code=exited, status=1/FAILURE
+dunst[1249]: CRITICAL: Cannot open X11 display.
+systemd[1243]: Started D-Bus User Message Bus.
+sddm[1061]: Greeter session started successfully
+systemd[1243]: Starting Sound Service...
+systemd[1]: Started Session 1 of user sddm.
+systemd[1243]: Starting Dunst notification daemon...
+systemd[1]: Started User Manager for UID 121.
+systemd[1243]: Reached target Basic System.
+systemd[1243]: Reached target Sockets.
+systemd[1243]: Listening on D-Bus User Message Bus Socket.
+systemd[1243]: Listening on REST API socket for snapd user session agent.
+systemd[1243]: Listening on Sound System.
+systemd[1243]: Listening on debconf communication socket.
+systemd[1243]: Listening on GnuPG cryptographic agent and passphrase cache.
+systemd[1243]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+systemd[1243]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+systemd[1243]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+systemd[1243]: Listening on GnuPG network certificate management daemon.
+systemd[1243]: Starting D-Bus User Message Bus Socket.
+systemd[1243]: Reached target Timers.
+systemd[1243]: Reached target Paths.
+systemd[1243]: pam_unix(systemd-user:session): session opened for user sddm by (uid=0)
+systemd[1]: Starting User Manager for UID 121...
+systemd[1]: Finished User Runtime Directory /run/user/121.
+systemd-logind[915]: New session 1 of user sddm.
+systemd[1]: Starting User Runtime Directory /run/user/121...
+systemd[1]: Created slice User Slice of UID 121.
+sddm-helper[1239]: pam_unix(sddm-greeter:session): session opened for user sddm by (uid=0)
+sddm-helper[1239]: [PAM] returning.
+sddm-helper[1239]: [PAM] Authenticating...
+sddm-helper[1239]: [PAM] Starting...
+sddm[1061]: Adding cookie to "/var/run/sddm/{c505b2c8-7af5-4bf7-95c6-977417e6b75b}"
+sddm[1061]: Greeter starting...
+sddm[1061]: Loading theme configuration from "/usr/share/sddm/themes/ubuntu-theme/theme.conf"
+sddm[1061]: Socket server started.
+sddm[1061]: Socket server starting...
+sddm[1061]: Display server started.
+sddm[1061]: Running display setup script  "/usr/share/sddm/scripts/Xsetup"
+sddm[1061]: Setting default cursor
+ModemManager[996]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:1c.2/0000:03:00.0': not supported by any plugin
+systemd[1]: Finished PostgreSQL RDBMS.
+systemd[1]: Starting PostgreSQL RDBMS...
+systemd[1]: Started PostgreSQL Cluster 11-main.
+systemd[1]: Started PostgreSQL Cluster 12-main.
+acpid[881]: 1 client rule loaded
+acpid[881]: client connected from 1086[0:0]
+systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+systemd[1]: Finished Wait until snapd is fully seeded.
+systemd[1]: Started Time & Date Service.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.timedate1'
+systemd[1]: Starting Time & Date Service...
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.23' (uid=0 pid=910 comm="/usr/lib/snapd/snapd " label="unconfined")
+systemd[1]: Starting Wait until snapd is fully seeded...
+systemd[1]: Started Snap Daemon.
+snapd[910]: daemon.go:340: adjusting startup timeout by 1m45s (pessimistic estimate of 30s plus 5s per snap)
+systemd[1]: tmp-syscheck\x2dmountpoint\x2d695973330.mount: Succeeded.
+systemd[1]: Finished NFS server and services.
+kernel: NFSD: starting 90-second grace period (net f0000098)
+kernel: NFSD: Using UMH upcall client tracking operations.
+systemd[1]: Finished Daily man-db regeneration.
+systemd[1]: man-db.service: Succeeded.
+snapd[910]: daemon.go:247: started snapd/2.57.2 (series 16; classic) ubuntu/20.04 (amd64) linux/5.4.0-113-generic.
+snapd[910]: overlord.go:268: Acquired state lock file
+snapd[910]: overlord.go:263: Acquiring state lock file
+snapd[910]: AppArmor status: apparmor is enabled and all features are available
+kernel: caller os_map_kernel_space.part.0+0x77/0xa0 [nvidia] mapping multiple BARs
+kernel: resource sanity check: requesting [mem 0x000c0000-0x000fffff], which spans more than PCI Bus 0000:00 [mem 0x000d0000-0x000d3fff window]
+containerd[992]: time="2022-10-02T10:11:02.832322558+02:00" level=info msg="containerd successfully booted in 0.052415s"
+systemd[1]: Started containerd container runtime.
+containerd[992]: time="2022-10-02T10:11:02.831710497+02:00" level=info msg=serving... address=/run/containerd/containerd.sock
+containerd[992]: time="2022-10-02T10:11:02.831678345+02:00" level=info msg=serving... address=/run/containerd/containerd.sock.ttrpc
+containerd[992]: time="2022-10-02T10:11:02.831518649+02:00" level=error msg="failed to initialize a tracing processor \"otlp\"" error="no OpenTelemetry endpoint: skip plugin"
+containerd[992]: time="2022-10-02T10:11:02.831504257+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+containerd[992]: time="2022-10-02T10:11:02.831493832+02:00" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="no OpenTelemetry endpoint: skip plugin" type=io.containerd.tracing.processor.v1
+containerd[992]: time="2022-10-02T10:11:02.831477180+02:00" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+containerd[992]: time="2022-10-02T10:11:02.831467885+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.831454967+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.831433652+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830885365+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+containerd[992]: time="2022-10-02T10:11:02.830872667+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830863390+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830853293+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830844197+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830834860+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830825882+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830814033+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830800342+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830762940+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+containerd[992]: time="2022-10-02T10:11:02.830750186+02:00" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+containerd[992]: time="2022-10-02T10:11:02.830722595+02:00" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829921963+02:00" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+containerd[992]: time="2022-10-02T10:11:02.829882064+02:00" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+containerd[992]: time="2022-10-02T10:11:02.829834577+02:00" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+containerd[992]: time="2022-10-02T10:11:02.829822214+02:00" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829812700+02:00" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829803127+02:00" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829793304+02:00" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829781432+02:00" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829770626+02:00" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829759862+02:00" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829747026+02:00" level=info msg="loading plugin \"io.containerd.service.v1.introspection-service\"..." type=io.containerd.service.v1
+containerd[992]: time="2022-10-02T10:11:02.829714170+02:00" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+containerd[992]: time="2022-10-02T10:11:02.829689507+02:00" level=info msg="loading plugin \"io.containerd.event.v1.exchange\"..." type=io.containerd.event.v1
+containerd[992]: time="2022-10-02T10:11:02.829665040+02:00" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+containerd[992]: time="2022-10-02T10:11:02.827004553+02:00" level=info msg="metadata content store policy set" policy=shared
+containerd[992]: time="2022-10-02T10:11:02.826990028+02:00" level=warning msg="could not use snapshotter devmapper in metadata plugin" error="devmapper not configured"
+containerd[992]: time="2022-10-02T10:11:02.826962636+02:00" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+containerd[992]: time="2022-10-02T10:11:02.826921120+02:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.zfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.826701459+02:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.824220307+02:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.823478145+02:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.823469645+02:00" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.devmapper" error="devmapper not configured"
+containerd[992]: time="2022-10-02T10:11:02.823457376+02:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.devmapper\"..." type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.823436726+02:00" level=info msg="skip loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." error="path /var/lib/containerd/io.containerd.snapshotter.v1.btrfs (ext4) must be a btrfs filesystem to be used with the btrfs snapshotter: skip plugin" type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.823199333+02:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+kernel: aufs 5.4.3-20200302
+containerd[992]: time="2022-10-02T10:11:02.811533918+02:00" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+containerd[992]: time="2022-10-02T10:11:02.809879794+02:00" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+containerd[992]: time="2022-10-02T10:11:02.790782670+02:00" level=info msg="starting containerd" revision=212e8b6fa2f44b9c21b2798135fc6fb7c53efc16 version=1.6.4
+containerd[992]: time="2022-10-02T10:11:02+02:00" level=warning msg="deprecated version : `1`, please switch to version `2`"
+systemd[1]: Started Samba Winbind Daemon.
+systemd[1]: Started Dispatcher daemon for systemd-networkd.
+networkd-dispatcher[900]: UnknownState: n/a
+networkd-dispatcher[900]:     raise UnknownState(operational_state)
+networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+networkd-dispatcher[900]:     self.handle_state(iface_name,
+networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+networkd-dispatcher[900]: Traceback (most recent call last):
+networkd-dispatcher[900]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='enp3s0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+networkd-dispatcher[900]: UnknownState: n/a
+networkd-dispatcher[900]:     raise UnknownState(operational_state)
+networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 348, in handle_state
+networkd-dispatcher[900]:     self.handle_state(iface_name,
+networkd-dispatcher[900]:   File "/usr/bin/networkd-dispatcher", line 298, in trigger_all
+networkd-dispatcher[900]: Traceback (most recent call last):
+networkd-dispatcher[900]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+networkd-dispatcher[1088]: WARNING: systemd-networkd is not running, output will be incomplete.
+NetworkManager[889]: <info>  [1664698262.6280] modem-manager: ModemManager available
+NetworkManager[889]: <warn>  [1664698262.6228] Error: failed to open /run/network/ifstate
+sddm[1061]: Running: /usr/bin/X -nolisten tcp -auth /var/run/sddm/{c505b2c8-7af5-4bf7-95c6-977417e6b75b} -background none -noreset -displayfd 17 -seat seat0 vt1
+sddm[1061]: Display server starting...
+sddm[1061]: Loading theme configuration from ""
+kernel: r8169 0000:03:00.0 enp3s0: Link is Down
+kernel: input: HDA NVidia HDMI/DP,pcm=12 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input25
+kernel: input: HDA NVidia HDMI/DP,pcm=11 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input24
+kernel: input: HDA NVidia HDMI/DP,pcm=10 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input23
+kernel: input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input22
+kernel: input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input21
+kernel: input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input20
+kernel: input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1c.4/0000:06:00.1/sound/card3/input19
+sddm[1061]: Adding new display on vt 1 ...
+sddm[1061]: Logind interface found
+udisksd[918]: Cleaning up mount point /media/justinian/fde8d51e-489f-466d-8c8c-7665567f7e94 (device 8:17 is not mounted)
+sddm[1061]: Starting...
+udisksd[918]: mountpoint /media/justinian/fde8d51e-489f-466d-8c8c-7665567f7e94 is invalid, cannot recover the canonical path
+sddm[1061]: Initializing...
+udisksd[918]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+systemd[1]: Started Disk Manager.
+systemd[1]: Started Modem Manager.
+systemd[1]: Finished Rotate log files.
+systemd[1]: logrotate.service: Succeeded.
+systemd[1]: Started Simple Desktop Display Manager.
+systemd[1]: Started Unattended Upgrades Shutdown.
+kernel: Generic FE-GE Realtek PHY r8169-0-300:00: attached PHY driver [Generic FE-GE Realtek PHY] (mii_bus:phy_addr=r8169-0-300:00, irq=IGNORE)
+systemd[1]: Starting Simple Desktop Display Manager...
+systemd[1]: Started Login Service.
+systemd[1]: Started Network Manager Script Dispatcher Service.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+NetworkManager[889]: <info>  [1664698262.4612] device (enp3s0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+NetworkManager[889]: <info>  [1664698262.4604] manager: (enp3s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+NetworkManager[889]: <info>  [1664698262.4598] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+NetworkManager[889]: <info>  [1664698262.4596] device (lo): carrier: link connected
+acpid[881]: waiting for events: event logging is off
+acpid[881]: 8 rules loaded
+NetworkManager[889]: <warn>  [1664698262.4542] ifupdown: interfaces file /etc/network/interfaces doesn't exist
+NetworkManager[889]: <info>  [1664698262.4534] ifupdown: management mode: unmanaged
+NetworkManager[889]: <info>  [1664698262.4534] settings: Loaded settings plugin: keyfile (internal)
+NetworkManager[889]: <info>  [1664698262.4533] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-settings-plugin-ifupdown.so")
+systemd[1]: Starting Network Manager Script Dispatcher Service...
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.10' (uid=0 pid=889 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+NetworkManager[889]: <info>  [1664698262.4492] dhcp-init: Using DHCP client 'internal'
+NetworkManager[889]: <info>  [1664698262.4491] manager: Networking is enabled by state file
+NetworkManager[889]: <info>  [1664698262.4491] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+NetworkManager[889]: <info>  [1664698262.4490] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+NetworkManager[889]: <info>  [1664698262.4488] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wwan.so)
+NetworkManager[889]: <info>  [1664698262.4466] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-wifi.so)
+NetworkManager[889]: <info>  [1664698262.4424] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-adsl.so)
+acpid[881]: starting up with netlink and the input layer
+NetworkManager[889]: <info>  [1664698262.4389] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-bluetooth.so)
+rsyslogd[907]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="907" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+NetworkManager[889]: <info>  [1664698262.4282] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.22.10/libnm-device-plugin-team.so)
+systemd[1]: Started Accounts Service.
+accounts-daemon[880]: started daemon version 0.6.55
+snapd[910]: AppArmor status: apparmor is enabled and all features are available
+NetworkManager[889]: <info>  [1664698262.4100] manager[0x5604ae909030]: rfkill: WWAN hardware radio set enabled
+NetworkManager[889]: <info>  [1664698262.4099] manager[0x5604ae909030]: rfkill: Wi-Fi hardware radio set enabled
+NetworkManager[889]: <info>  [1664698262.4097] dns-mgr[0x5604ae8f0290]: init: dns=systemd-resolved rc-manager=symlink, plugin=systemd-resolved
+NetworkManager[889]: <info>  [1664698262.4095] hostname: hostname: using hostnamed
+systemd[1]: Started Hostname Service.
+dbus-daemon[888]: [system] Successfully activated service 'org.freedesktop.hostname1'
+udisksd[918]: Failed to load the 'mdraid' libblockdev plugin
+ModemManager[996]: <info>  ModemManager (version 1.16.6) starting in system bus...
+audit[979]: AVC apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=979 comm="cups-browsed" capability=23  capname="sys_nice"
+systemd[1]: Reached target Host and Network Name Lookups.
+systemd[1]: Failed to start dnsmasq - A lightweight DHCP and caching DNS server.
+systemd[1]: dnsmasq.service: Failed with result 'exit-code'.
+systemd[1]: dnsmasq.service: Control process exited, code=exited, status=2/INVALIDARGUMENT
+dnsmasq[1000]: FAILED to start up
+dnsmasq[1000]: failed to create listening socket for port 53: Address already in use
+dnsmasq[1000]: dnsmasq: failed to create listening socket for port 53: Address already in use
+systemd[1]: Started OpenBSD Secure Shell server.
+sshd[1015]: Server listening on :: port 22.
+sshd[1015]: Server listening on 0.0.0.0 port 22.
+udisksd[918]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+exportfs[1010]:   NOTE: this default has changed since nfs-utils version 1.0.x
+exportfs[1010]:   Assuming default behaviour ('no_subtree_check').
+systemd[1]: Starting NFS server and services...
+systemd[1]: Started NFS Mount Daemon.
+rpc.mountd[1008]: Version 1.3.3 starting
+haveged[846]: haveged: fills: 0, generated: 0
+haveged[846]: haveged: tot tests(BA8): A:1/1 B:1/1 continuous tests(B):  last entropy estimate 8.00002
+haveged[846]: haveged: cpu: (L4 VC); data: 32K (L4 V); inst: 32K (L4 V); idx: 24/40; sz: 31410/52825
+haveged[846]: haveged: ver: 1.9.1; arch: x86; vend: GenuineIntel; build: (gcc 8.3.0 ITV); collect: 128K
+systemd[1]: Finished Terminate Plymouth Boot Screen.
+systemd[1]: plymouth-quit.service: Succeeded.
+systemd[1]: Received SIGRTMIN+21 from PID 266 (plymouthd).
+systemd[1]: Started CUPS Scheduler.
+systemd[1]: Stopped CUPS Scheduler.
+systemd[1]: cups.service: Succeeded.
+systemd-logind[915]: Watching system buttons on /dev/input/event9 (E-Signal USB Gaming Mouse System Control)
+systemd-logind[915]: Watching system buttons on /dev/input/event8 (E-Signal USB Gaming Mouse Keyboard)
+systemd-logind[915]: Watching system buttons on /dev/input/event10 (E-Signal USB Gaming Mouse Consumer Control)
+systemd-logind[915]: Watching system buttons on /dev/input/event5 (SONiX USB DEVICE Consumer Control)
+systemd[1]: Created slice system-getty.slice.
+systemd[1]: Finished Set console scheme.
+systemd[1]: Starting Hostname Service...
+thermald[916]: error: could not parse file /etc/thermald/thermal-conf.xml
+thermald[916]: I/O warning : failed to load external entity "/etc/thermald/thermal-conf.xml"
+dbus-daemon[888]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.10' (uid=0 pid=889 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+dnsmasq[982]: dnsmasq: syntax check OK.
+systemd[1]: Stopping CUPS Scheduler...
+thermald[916]: I/O warning : failed to load external entity "/etc/thermald/thermal-conf.xml"
+thermald[916]: error: could not parse file /etc/thermald/thermal-conf.xml
+systemd[1]: Starting Set console scheme...
+thermald[916]: error: could not parse file /etc/thermald/thermal-conf.xml
+thermald[916]: I/O warning : failed to load external entity "/etc/thermald/thermal-conf.xml"
+systemd[1]: Starting Terminate Plymouth Boot Screen...
+systemd[1]: Finished Permit User Sessions.
+systemd[1]: Starting Modem Manager...
+systemd[1]: Started Authorization Manager.
+polkitd[903]: started daemon version 0.105 using authority implementation `local' version `0.105'
+systemd[1]: Starting Samba Winbind Daemon...
+systemd[1]: Starting Permit User Sessions...
+systemd[1]: Starting OpenBSD Secure Shell server...
+NetworkManager[889]: <info>  [1664698262.3061] monitoring ifupdown state file '/run/network/ifstate'.
+NetworkManager[889]: <info>  [1664698262.3060] manager[0x5604ae909030]: monitoring kernel firmware directory '/lib/firmware'.
+systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+systemd[1]: Starting PostgreSQL Cluster 12-main...
+systemd[1]: Starting PostgreSQL Cluster 11-main...
+thermald[916]: sensor id 6 : No temp sysfs for reading raw temp
+thermald[916]: sensor id 6 : No temp sysfs for reading raw temp
+thermald[916]: sensor id 6 : No temp sysfs for reading raw temp
+thermald[916]: Polling mode is enabled: 4
+thermald[916]: 13 CPUID levels; family:model:stepping 0x6:3c:3 (6:60:3)
+thermald[916]: 13 CPUID levels; family:model:stepping 0x6:3c:3 (6:60:3)
+avahi-daemon[885]: Registering new address record for 127.0.0.1 on lo.IPv4.
+avahi-daemon[885]: Registering new address record for ::1 on lo.*.
+avahi-daemon[885]: Network interface enumeration completed.
+avahi-daemon[885]: New relevant interface lo.IPv4 for mDNS.
+systemd[1]: Starting NFS Mount Daemon...
+avahi-daemon[885]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+systemd[1]: Starting dnsmasq - A lightweight DHCP and caching DNS server...
+avahi-daemon[885]: New relevant interface lo.IPv6 for mDNS.
+systemd[1]: Starting containerd container runtime...
+avahi-daemon[885]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+systemd[1]: Starting Network Manager Wait Online...
+avahi-daemon[885]: No service file found in /etc/avahi/services.
+systemd[1]: Reached target Network.
+NetworkManager[889]: <info>  [1664698262.2988] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+systemd[1]: Started Network Manager.
+avahi-daemon[885]: Successfully dropped remaining capabilities.
+avahi-daemon[885]: Successfully called chroot().
+systemd[1]: Started Thermal Daemon Service.
+systemd[1]: Started Make remote CUPS printers available locally.
+systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+systemd[1]: Started WPA supplicant.
+wpa_supplicant[920]: Successfully initialized wpa_supplicant
+dbus-daemon[888]: [system] AppArmor D-Bus mediation is enabled
+NetworkManager[889]: <info>  [1664698262.2812] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-dns-resolved.conf, no-mac-addr-change.conf) (run: 10-globally-managed-devices.conf) (etc: default-wifi-powersave-on.conf)
+systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+systemd[1]: e2scrub_reap.service: Succeeded.
+NetworkManager[889]: <info>  [1664698262.2804] NetworkManager (version 1.22.10) is starting... (for the first time)
+systemd-logind[915]: Watching system buttons on /dev/input/event3 (SONiX USB DEVICE Keyboard)
+systemd-logind[915]: Watching system buttons on /dev/input/event2 (SONiX USB DEVICE)
+systemd[1]: Finished Detect the available GPUs and deal with any system changes.
+systemd[1]: gpu-manager.service: Succeeded.
+systemd-logind[915]: Watching system buttons on /dev/input/event0 (Power Button)
+systemd-logind[915]: Watching system buttons on /dev/input/event1 (Power Button)
+systemd-logind[915]: New seat seat0.
+systemd[1]: Finished GRUB failed boot detection.
+systemd[1]: grub-initrd-fallback.service: Succeeded.
+systemd[1]: Starting GRUB failed boot detection...
+systemd[1]: Finished Record successful boot for GRUB.
+systemd[1]: grub-common.service: Succeeded.
+dbus-daemon[888]: dbus[888]: Unknown group "power" in message bus configuration file
+systemd[1]: Started LSB: automatic crash report generation.
+apport[884]:    ...done.
+apport[884]:  * Starting automatic crash report generation: apport
+rsyslogd[907]: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="907" x-info="https://www.rsyslog.com"] start
+rsyslogd[907]: rsyslogd's userid changed to 104
+rsyslogd[907]: rsyslogd's groupid changed to 110
+systemd[1]: Started System Logging Service.
+rsyslogd[907]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+udisksd[918]: udisks daemon version 2.8.4 starting
+systemd[1]: Reached target Sound Card.
+systemd[1]: Finished Save/Restore Sound Card State.
+systemd[1]: Finished Initialize hardware monitoring sensors.
+systemd[1]: Finished Resets System Activity Data Collector.
+systemd[1]: Finished Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+sensors[930]: temp2:        +29.8°C  (crit = +105.0°C)
+sensors[930]: temp1:        +27.8°C  (crit = +105.0°C)
+sensors[930]: Adapter: ACPI interface
+sensors[930]: acpitz-acpi-0
+sensors[930]: Core 3:        +37.0°C  (high = +80.0°C, crit = +100.0°C)
+sensors[930]: Core 2:        +39.0°C  (high = +80.0°C, crit = +100.0°C)
+sensors[930]: Core 1:        +38.0°C  (high = +80.0°C, crit = +100.0°C)
+sensors[930]: Core 0:        +42.0°C  (high = +80.0°C, crit = +100.0°C)
+sensors[930]: Package id 0:  +42.0°C  (high = +80.0°C, crit = +100.0°C)
+sensors[930]: Adapter: ISA adapter
+sensors[930]: coretemp-isa-0000
+avahi-daemon[885]: avahi-daemon 0.7 starting up.
+systemd[1]: pppd-dns.service: Succeeded.
+avahi-daemon[885]: Successfully dropped root privileges.
+systemd[1]: Started NVIDIA Persistence Daemon.
+systemd[1]: Starting Daily man-db regeneration...
+systemd[1]: Starting Rotate log files...
+systemd[1]: Starting WPA supplicant...
+systemd[1]: Starting Disk Manager...
+systemd[1]: Condition check resulted in Ubuntu Advantage reboot cmds being skipped.
+systemd[1]: Starting Thermal Daemon Service...
+nvidia-persistenced[906]: Local RPC services initialized
+systemd[1]: Starting Login Service...
+nvidia-persistenced[906]: device 0000:06:00.0 - registered
+systemd[1]: Starting Resets System Activity Data Collector...
+systemd[1]: Starting Snap Daemon...
+systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+nvidia-persistenced[906]: Started (906)
+systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+nvidia-persistenced[906]: Now running with user ID 124 and group ID 133
+systemd[1]: Starting System Logging Service...
+nvidia-persistenced[906]: Verbose syslog connection opened
+systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+systemd[1]: Starting Authorization Manager...
+systemd[1]: Started Set the CPU Frequency Scaling governor.
+systemd[1]: Starting NVIDIA Persistence Daemon...
+systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+systemd[1]: Starting Initialize hardware monitoring sensors...
+systemd[1]: Started irqbalance daemon.
+systemd[1]: Starting Record successful boot for GRUB...
+systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+systemd[1]: Reached target Login Prompts.
+systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+systemd[1]: Started Save initial kernel messages after boot.
+systemd[1]: Starting Network Manager...
+systemd[1]: Started D-Bus System Message Bus.
+systemd[1]: Reached target Printer.
+systemd[1]: Started CUPS Scheduler.
+systemd[1]: Started Regular background program processing daemon.
+systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+systemd[1]: Starting LSB: automatic crash report generation...
+cron[886]: (CRON) INFO (Running @reboot jobs)
+systemd[1]: Started Run anacron jobs.
+avahi-daemon[885]: Found user 'avahi' (UID 115) and group 'avahi' (GID 123).
+systemd[1]: Starting Save/Restore Sound Card State...
+anacron[883]: Jobs will be executed sequentially
+systemd[1]: Condition check resulted in Manage Sound Card State (restore and store) being skipped.
+anacron[883]: Will run job `cron.daily' in 5 min.
+systemd[1]: Started ACPI event daemon.
+cron[886]: (CRON) INFO (pidfile fd = 3)
+systemd[1]: Starting Accounts Service...
+anacron[883]: Anacron 2.3 started on 2022-10-02
+systemd[1]: Reached target Basic System.
+systemd[1]: Reached target Sockets.
+systemd[1]: Listening on Docker Socket for the API.
+systemd[1]: Listening on Socket activation for snappy daemon.
+systemd[1]: Listening on UUID daemon activation socket.
+systemd[1]: Starting Socket activation for snappy daemon.
+systemd[1]: Starting Docker Socket for the API.
+systemd[1]: Listening on D-Bus System Message Bus Socket.
+systemd[1]: Listening on CUPS Scheduler.
+systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+systemd[1]: Listening on ACPID Listen Socket.
+systemd[1]: Reached target Timers.
+systemd[1]: Reached target Paths.
+systemd[1]: Started Ubuntu Advantage Timer for running repeated jobs.
+systemd[1]: Started Daily Cleanup of Temporary Directories.
+systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+systemd[1]: Started Message of the Day.
+systemd[1]: Started Daily man-db regeneration.
+systemd[1]: Started Daily rotation of log files.
+systemd[1]: Started Refresh fwupd metadata regularly.
+systemd[1]: Started Discard unused blocks once a week.
+systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+systemd[1]: Started Daily apt upgrade and clean activities.
+systemd[1]: Started Daily apt download activities.
+systemd[1]: Started Trigger anacron every hour.
+systemd[1]: Started Trigger to poll for Ubuntu Pro licenses (Only enabled on GCP LTS non-pro).
+systemd[1]: Started CUPS Scheduler.
+systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+systemd[1]: Started ACPI Events Check.
+systemd[1]: Reached target System Initialization.
+systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+audit[877]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.signal-desktop.signal-desktop" pid=877 comm="apparmor_parser"
+audit[873]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.insomnia.insomnia" pid=873 comm="apparmor_parser"
+audit[876]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.signal-desktop.hook.configure" pid=876 comm="apparmor_parser"
+audit[875]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.port.port" pid=875 comm="apparmor_parser"
+audit[874]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.port.hook.configure" pid=874 comm="apparmor_parser"
+systemd[1]: Started Network Name Resolution.
+audit[870]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.exercism.exercism" pid=870 comm="apparmor_parser"
+audit[872]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.heroku.hook.configure" pid=872 comm="apparmor_parser"
+audit[869]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.core.hook.configure" pid=869 comm="apparmor_parser"
+audit[871]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.heroku.heroku" pid=871 comm="apparmor_parser"
+audit[867]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.chromium.chromium" pid=867 comm="apparmor_parser"
+audit[866]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.chromium.chromedriver" pid=866 comm="apparmor_parser"
+audit[868]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.chromium.hook.configure" pid=868 comm="apparmor_parser"
+audit[864]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.port" pid=864 comm="apparmor_parser"
+haveged[846]: haveged starting up
+systemd-resolved[825]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+systemd-resolved[825]: Positive Trust Anchors:
+audit[865]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.signal-desktop" pid=865 comm="apparmor_parser"
+audit[863]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.insomnia" pid=863 comm="apparmor_parser"
+audit[861]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.exercism" pid=861 comm="apparmor_parser"
+audit[862]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.heroku" pid=862 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.068:34): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=860 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.068:33): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.chromium" pid=859 comm="apparmor_parser"
+audit[860]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.core" pid=860 comm="apparmor_parser"
+audit[859]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.chromium" pid=859 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.064:32): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/16778/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=857 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.064:31): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/16778/usr/lib/snapd/snap-confine" pid=857 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.064:30): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=858 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.064:29): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine" pid=858 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.064:28): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/13886/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=856 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.064:27): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/13886/usr/lib/snapd/snap-confine" pid=856 comm="apparmor_parser"
+audit[857]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/16778/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=857 comm="apparmor_parser"
+audit[857]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/16778/usr/lib/snapd/snap-confine" pid=857 comm="apparmor_parser"
+audit[858]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=858 comm="apparmor_parser"
+audit[858]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/17029/usr/lib/snapd/snap-confine" pid=858 comm="apparmor_parser"
+audit[856]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/13886/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=856 comm="apparmor_parser"
+audit[856]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/core/13886/usr/lib/snapd/snap-confine" pid=856 comm="apparmor_parser"
+systemd[1]: Reached target System Time Synchronized.
+systemd[1]: Reached target System Time Set.
+systemd[1]: Started Network Time Synchronization.
+systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+systemd[1]: Started Entropy daemon using the HAVEGE algorithm.
+systemd[1]: Finished Load AppArmor profiles.
+kernel: audit: type=1400 audit(1664698262.040:26): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=840 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.040:25): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=840 comm="apparmor_parser"
+kernel: kauditd_printk_skb: 14 callbacks suppressed
+audit[840]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=840 comm="apparmor_parser"
+audit[840]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=840 comm="apparmor_parser"
+audit[828]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice//gpg" pid=828 comm="apparmor_parser"
+audit[828]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice" pid=828 comm="apparmor_parser"
+audit[844]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=844 comm="apparmor_parser"
+audit[842]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=842 comm="apparmor_parser"
+apparmor.systemd[843]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+audit[841]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/haveged" pid=841 comm="apparmor_parser"
+audit[839]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="ippusbxd" pid=839 comm="apparmor_parser"
+audit[838]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=838 comm="apparmor_parser"
+audit[835]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=835 comm="apparmor_parser"
+audit[835]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=835 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.016:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=836 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.016:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=836 comm="apparmor_parser"
+audit[837]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=837 comm="apparmor_parser"
+audit[837]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=837 comm="apparmor_parser"
+audit[837]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=837 comm="apparmor_parser"
+audit[837]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=837 comm="apparmor_parser"
+audit[836]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=836 comm="apparmor_parser"
+audit[836]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=836 comm="apparmor_parser"
+audit[836]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=836 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.008:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=834 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.008:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=833 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.008:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=832 comm="apparmor_parser"
+audit[834]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=834 comm="apparmor_parser"
+audit[833]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=833 comm="apparmor_parser"
+audit[832]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=832 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.004:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="mysqld_akonadi" pid=830 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.004:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=829 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.004:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=829 comm="apparmor_parser"
+kernel: audit: type=1400 audit(1664698262.004:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=829 comm="apparmor_parser"
+audit[830]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="mysqld_akonadi" pid=830 comm="apparmor_parser"
+audit[829]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=829 comm="apparmor_parser"
+audit[829]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=829 comm="apparmor_parser"
+audit[829]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=829 comm="apparmor_parser"
+systemd[1]: Reached target RPC Port Mapper.
+systemd[1]: Reached target Remote File Systems.
+systemd[1]: Reached target Remote File Systems (Pre).
+systemd[1]: Started RPC bind portmap service.
+apparmor.systemd[831]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+systemd[1]: Starting Network Time Synchronization...
+systemd[1]: Starting Network Name Resolution...
+systemd[1]: Starting RPC bind portmap service...
+systemd[1]: Finished Create Volatile Files and Directories.
+apparmor.systemd[810]: Reloading AppArmor profiles
+apparmor.systemd[810]: Restarting AppArmor
+systemd[1]: Started NFSv4 ID-name mapping service.
+systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+systemd[1]: plymouth-read-write.service: Succeeded.
+systemd[1]: Received SIGRTMIN+20 from PID 266 (plymouthd).
+systemd[1]: Condition check resulted in RPC security service for NFS server being skipped.
+systemd[1]: Reached target NFS client services.
+systemd[1]: Condition check resulted in RPC security service for NFS client and server being skipped.
+systemd[1]: Starting NFSv4 ID-name mapping service...
+systemd[1]: Finished Preprocess NFS configuration.
+systemd[1]: nfs-config.service: Succeeded.
+systemd[1]: Finished Set console font and keymap.
+systemd[1]: Starting Create Volatile Files and Directories...
+systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+systemd[1]: Starting Preprocess NFS configuration...
+systemd[1]: Starting Set console font and keymap...
+systemd[1]: Starting Load AppArmor profiles...
+systemd[1]: Reached target Local File Systems.
+systemd[1]: Mounted /boot/efi.
+systemd[1]: Mounting /boot/efi...
+systemd[1]: Finished File System Check on /dev/disk/by-uuid/22F0-AC55.
+systemd-fsck[807]: /dev/sdc2: 204 files, 40498/97280 clusters
+systemd-fsck[807]: fsck.fat 4.1 (2017-01-24)
+kernel: Adding 8191996k swap on /dev/sdc6.  Priority:-2 extents:1 across:8191996k SSFS
+systemd[1]: Reached target Swap.
+systemd[1]: Activated swap /dev/disk/by-uuid/e61ec054-1cf7-49f9-95fc-f2fa05e779f3.
+systemd[1]: Started File System Check Daemon to report status.
+systemd[1]: Starting File System Check on /dev/disk/by-uuid/22F0-AC55...
+systemd[1]: Activating swap /dev/disk/by-uuid/e61ec054-1cf7-49f9-95fc-f2fa05e779f3...
+systemd[1]: Found device Samsung_SSD_860_EVO_500GB EFI\x20system\x20partition.
+systemd[1]: Found device Samsung_SSD_860_EVO_500GB 6.
+systemd[1]: Mounted Mount unit for insomnia, revision 183.
+systemd[1]: Mounted Mount unit for insomnia, revision 182.
+systemd[1]: Mounted Mount unit for signal-desktop, revision 395.
+systemd[1]: Mounted Mount unit for gnome-3-28-1804, revision 145.
+systemd[1]: Mounted Mount unit for snapd, revision 16778.
+systemd[1]: Mounted Mount unit for signal-desktop, revision 397.
+systemd[1]: Mounted Mount unit for port, revision 74.
+systemd[1]: Mounted Mount unit for heroku, revision 4092.
+systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1534.
+systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+systemd[1]: Failed to start Show Plymouth Boot Screen.
+systemd[1]: plymouth-start.service: Failed with result 'start-limit-hit'.
+systemd[1]: plymouth-start.service: Start request repeated too quickly.
+systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+systemd[1]: Started Show Plymouth Boot Screen.
+systemd[1]: plymouth-start.service: Succeeded.
+systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+systemd[1]: Starting Show Plymouth Boot Screen...
+kernel: usbcore: registered new interface driver snd-usb-audio
+systemd[1]: Mounted Mount unit for snapd, revision 17029.
+systemd[1]: Mounted Mount unit for port, revision 75.
+kernel: intel_rapl_common: Found RAPL domain dram
+kernel: intel_rapl_common: Found RAPL domain core
+kernel: intel_rapl_common: Found RAPL domain package
+systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+systemd[1]: Started Show Plymouth Boot Screen.
+systemd[1]: plymouth-start.service: Succeeded.
+systemd[1]: Mounted Mount unit for gnome-3-38-2004, revision 119.
+systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+systemd[1]: Starting Show Plymouth Boot Screen...
+systemd[1]: Mounted Mount unit for heroku, revision 4087.
+systemd[1]: Mounted Mount unit for gtk-common-themes, revision 1535.
+systemd[1]: Mounted Mount unit for gnome-3-34-1804, revision 72.
+systemd[1]: Mounted Mount unit for gnome-3-38-2004, revision 115.
+systemd[1]: Mounted Mount unit for gnome-3-28-1804, revision 161.
+systemd-udevd[424]: video4linux: Process '/usr/lib/snapd/snap-device-helper add snap_signal-desktop_signal-desktop /class/video4linux 0:0' failed with exit code 1.
+systemd-udevd[424]: video4linux: Process '/usr/lib/snapd/snap-device-helper add snap_chromium_chromium /class/video4linux 0:0' failed with exit code 1.
+systemd-udevd[424]: video4linux: Process '/usr/lib/snapd/snap-device-helper add snap_chromium_chromedriver /class/video4linux 0:0' failed with exit code 1.
+systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+systemd[1]: Started Show Plymouth Boot Screen.
+systemd[1]: plymouth-start.service: Succeeded.
+systemd[1]: Mounted Mount unit for chromium, revision 2082.
+systemd[1]: Mounted Mount unit for gnome-3-34-1804, revision 77.
+systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+systemd[1]: Starting Show Plymouth Boot Screen...
+systemd[1]: Mounted Mount unit for core20, revision 1623.
+systemd[1]: Mounted Mount unit for core20, revision 1611.
+systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+systemd-udevd[423]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+kernel: input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card2/input18
+kernel: input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1b.0/sound/card2/input17
+kernel: input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1b.0/sound/card2/input16
+kernel: input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1b.0/sound/card2/input15
+kernel: input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1b.0/sound/card2/input14
+systemd[1]: Mounted Mount unit for core, revision 13886.
+kernel: snd_hda_codec_realtek hdaudioC2D0:      Line=0x1a
+kernel: snd_hda_codec_realtek hdaudioC2D0:      Rear Mic=0x18
+kernel: snd_hda_codec_realtek hdaudioC2D0:      Front Mic=0x19
+kernel: snd_hda_codec_realtek hdaudioC2D0:    inputs:
+kernel: snd_hda_codec_realtek hdaudioC2D0:    dig-out=0x11/0x0
+kernel: snd_hda_codec_realtek hdaudioC2D0:    mono: mono_out=0x0
+kernel: snd_hda_codec_realtek hdaudioC2D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+kernel: snd_hda_codec_realtek hdaudioC2D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+kernel: snd_hda_codec_realtek hdaudioC2D0: autoconfig for ALC887-VD: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+kernel: RAPL PMU: hw unit of domain dram 2^-14 Joules
+kernel: RAPL PMU: hw unit of domain package 2^-14 Joules
+kernel: RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+kernel: RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 655360 ms ovfl timer
+kernel: input: Eee PC WMI hotkeys as /devices/platform/eeepc-wmi/input/input13
+kernel: eeepc-wmi eeepc-wmi: Detected ASUSWMI, use DCTS
+kernel: asus_wmi: SFUN value: 0x0
+kernel: asus_wmi: BIOS WMI version: 0.9
+kernel: asus_wmi: Initialization: 0x0
+kernel: snd_hda_intel 0000:06:00.1: Handle vga_switcheroo audio client
+kernel: snd_hda_intel 0000:06:00.1: Disabling MSI
+kernel: snd_hda_intel 0000:00:1b.0: enabling device (0000 -> 0002)
+kernel: asus_wmi: ASUS WMI generic driver loaded
+systemd[1]: Mounted Mount unit for exercism, revision 5.
+kernel: usbcore: registered new interface driver vc032x
+kernel: USB Video Class driver (1.1.1)
+kernel: usbcore: registered new interface driver uvcvideo
+kernel: input: HD Pro Webcam C920 as /devices/pci0000:00/0000:00:14.0/usb3/3-14/3-14:1.0/input/input12
+kernel: uvcvideo: Found UVC 1.00 device HD Pro Webcam C920 (046d:0892)
+kernel: gspca_main: v2.14.0 registered
+kernel: videodev: Linux video capture interface: v2.00
+kernel: mc: Linux media interface: v0.10
+mtp-probe[493]: bus: 3, device: 4 was not an MTP device
+mtp-probe[493]: checking bus 3, device 4: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-11"
+mtp-probe[486]: bus: 3, device: 2 was not an MTP device
+mtp-probe[486]: checking bus 3, device 2: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-3"
+mtp-probe[494]: bus: 3, device: 6 was not an MTP device
+mtp-probe[494]: checking bus 3, device 6: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-14"
+mtp-probe[479]: bus: 3, device: 5 was not an MTP device
+mtp-probe[484]: bus: 3, device: 3 was not an MTP device
+systemd[1]: Mounted Mount unit for core, revision 13741.
+mtp-probe[484]: checking bus 3, device 3: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-9"
+mtp-probe[479]: checking bus 3, device 5: "/sys/devices/pci0000:00/0000:00:14.0/usb3/3-13"
+systemd-udevd[455]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+systemd-udevd[455]: Using default interface naming scheme 'v245'.
+systemd[1]: Mounted Mount unit for bare, revision 5.
+systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+systemd[1]: Started Show Plymouth Boot Screen.
+systemd[1]: plymouth-start.service: Succeeded.
+systemd-udevd[453]: rfkill: Process '/usr/lib/snapd/snap-device-helper add snap_chromium_chromium /module/rfkill 0:0' failed with exit code 1.
+systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+systemd[1]: Starting Show Plymouth Boot Screen...
+systemd-udevd[453]: rfkill: Process '/usr/lib/snapd/snap-device-helper add snap_chromium_chromedriver /module/rfkill 0:0' failed with exit code 1.
+kernel: nvidia-uvm: Loaded the UVM driver, major device number 236.
+systemd[1]: Mounted Mount unit for core18, revision 2566.
+systemd[1]: Mounted Mount unit for core18, revision 2560.
+systemd[1]: Mounted Mount unit for chromium, revision 2105.
+systemd[1]: Finished Apply Kernel Variables.
+systemd-sysctl[443]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+systemd-sysctl[443]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+systemd[1]: Reached target Local Encrypted Volumes.
+systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+systemd[1]: Condition check resulted in Dispatch Password Requests to Console Directory Watch being skipped.
+systemd[1]: Started Show Plymouth Boot Screen.
+systemd[1]: plymouth-start.service: Succeeded.
+systemd[1]: Finished Flush Journal to Persistent Storage.
+systemd[1]: Mounted Kernel Configuration File System.
+systemd[1]: Mounted FUSE Control File System.
+systemd[1]: Starting Apply Kernel Variables...
+systemd[1]: Mounting Kernel Configuration File System...
+systemd[1]: Mounting FUSE Control File System...
+systemd[1]: Finished Load Kernel Modules.
+systemd-modules-load[361]: Inserted module 'ipmi_devintf'
+systemd[1]: Starting Show Plymouth Boot Screen...
+systemd[1]: Started udev Kernel Device Manager.
+systemd-modules-load[361]: Inserted module 'msr'
+systemd-modules-load[361]: Inserted module 'parport_pc'
+systemd[1]: Finished udev Coldplug all Devices.
+systemd[1]: Mounting Mount unit for snapd, revision 17029...
+systemd[1]: Mounting Mount unit for snapd, revision 16778...
+systemd[1]: Mounting Mount unit for signal-desktop, revision 397...
+systemd[1]: Mounting Mount unit for signal-desktop, revision 395...
+systemd[1]: Mounting Mount unit for port, revision 75...
+systemd[1]: Mounting Mount unit for port, revision 74...
+systemd[1]: Mounting Mount unit for insomnia, revision 183...
+systemd[1]: Mounting Mount unit for insomnia, revision 182...
+systemd[1]: Mounting Mount unit for heroku, revision 4092...
+systemd[1]: Mounting Mount unit for heroku, revision 4087...
+systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1535...
+systemd[1]: Mounting Mount unit for gtk-common-themes, revision 1534...
+systemd[1]: Mounting Mount unit for gnome-3-38-2004, revision 119...
+systemd[1]: Mounting Mount unit for gnome-3-38-2004, revision 115...
+systemd[1]: Mounting Mount unit for gnome-3-34-1804, revision 77...
+systemd[1]: Mounting Mount unit for gnome-3-34-1804, revision 72...
+systemd[1]: Mounting Mount unit for gnome-3-28-1804, revision 161...
+systemd[1]: Mounting Mount unit for gnome-3-28-1804, revision 145...
+systemd[1]: Mounting Mount unit for exercism, revision 5...
+systemd[1]: Mounting Mount unit for core20, revision 1623...
+systemd[1]: Mounting Mount unit for core20, revision 1611...
+systemd[1]: Mounting Mount unit for core18, revision 2566...
+systemd[1]: Mounting Mount unit for core18, revision 2560...
+systemd[1]: Mounting Mount unit for core, revision 13886...
+systemd[1]: Mounting Mount unit for core, revision 13741...
+systemd[1]: Mounting Mount unit for chromium, revision 2105...
+systemd[1]: Mounting Mount unit for chromium, revision 2082...
+systemd[1]: Mounting Mount unit for bare, revision 5...
+systemd[1]: Reached target Local File Systems (Pre).
+systemd[1]: Finished Set the console keyboard layout.
+kernel: ipmi device interface
+kernel: IPMI message handler: version 39.2
+kernel: lp0: using parport0 (interrupt-driven).
+systemd-journald[357]: System Journal (/var/log/journal/347ca621c06d46c5b4e7fd1b9637b968) is 976.2M, max 4.0G, 3.0G free.
+systemd-journald[357]: Time spent on flushing to /var/log/journal/347ca621c06d46c5b4e7fd1b9637b968 is 38.102ms for 972 entries.
+systemd[1]: Starting Flush Journal to Persistent Storage...
+systemd[1]: Started Journal Service.
+systemd-modules-load[361]: Inserted module 'ppdev'
+blkmapd[372]: open pipe file /run/rpc_pipefs/nfs/blocklayout failed: No such file or directory
+systemd-modules-load[361]: Inserted module 'lp'
+systemd-journald[357]: Runtime Journal (/run/log/journal/347ca621c06d46c5b4e7fd1b9637b968) is 8.0M, max 159.4M, 151.4M free.
+systemd-journald[357]: Journal started
+systemd[1]: Starting udev Kernel Device Manager...
+systemd[1]: Finished Create Static Device Nodes in /dev.
+kernel: parport0: PC-style at 0x378, irq 5 [PCSPP]
+kernel: parport_pc 00:05: reported by Plug and Play ACPI
+kernel: ppdev: user-space parallel port driver
+systemd[1]: Starting Create Static Device Nodes in /dev...
+systemd[1]: Finished Create System Users.
+systemd[1]: Finished Load/Save Random Seed.
+kernel: lp: driver loaded but no devices found
+systemd[1]: Mounted NFSD configuration filesystem.
+kernel: Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+systemd[1]: Starting Create System Users...
+systemd[1]: Starting Load/Save Random Seed...
+systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+systemd[1]: Started pNFS block layout mapping daemon.
+systemd[1]: Finished Remount Root and Kernel File Systems.
+kernel: EXT4-fs (sdc5): re-mounted. Opts: errors=remount-ro
+systemd[1]: Starting pNFS block layout mapping daemon...
+systemd[1]: Mounted RPC Pipe File System.
+kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+kernel: RPC: Registered tcp transport module.
+kernel: RPC: Registered udp transport module.
+kernel: RPC: Registered named UNIX socket transport module.
+systemd[1]: Finished Create list of static device nodes for the current kernel.
+systemd[1]: Mounted Kernel Trace File System.
+systemd[1]: Mounted Kernel Debug File System.
+systemd[1]: Mounted POSIX Message Queue File System.
+systemd[1]: Mounted Huge Pages File System.
+systemd[1]: Starting udev Coldplug all Devices...
+systemd[1]: Starting Remount Root and Kernel File Systems...
+systemd[1]: Starting Load Kernel Modules...
+systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+systemd[1]: Condition check resulted in Load Kernel Module drm being skipped.
+systemd[1]: Starting Create list of static device nodes for the current kernel...
+systemd[1]: Starting Set the console keyboard layout...
+systemd[1]: Condition check resulted in Kernel Module supporting RPCSEC_GSS being skipped.
+systemd[1]: Starting Journal Service...
+systemd[1]: Mounting Kernel Trace File System...
+systemd[1]: Mounting Kernel Debug File System...
+systemd[1]: Mounting RPC Pipe File System...
+systemd[1]: Mounting NFSD configuration filesystem...
+systemd[1]: Mounting POSIX Message Queue File System...
+systemd[1]: Mounting Huge Pages File System...
+systemd[1]: Listening on udev Kernel Socket.
+systemd[1]: Listening on udev Control Socket.
+systemd[1]: Listening on Journal Socket.
+systemd[1]: Listening on Journal Socket (/dev/log).
+systemd[1]: Listening on Journal Audit Socket.
+systemd[1]: Listening on initctl Compatibility Named Pipe.
+systemd[1]: Listening on fsck to fsckd communication Socket.
+systemd[1]: Listening on Syslog Socket.
+systemd[1]: Listening on RPCbind Server Activation Socket.
+systemd[1]: Reached target Slices.
+systemd[1]: Reached target User and Group Name Lookups.
+systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+systemd[1]: Created slice User and Session Slice.
+systemd[1]: Created slice system-systemd\x2dfsck.slice.
+systemd[1]: Created slice system-postgresql.slice.
+systemd[1]: Created slice system-modprobe.slice.
+systemd[1]: systemd 245.4-4ubuntu3.17 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid)
+systemd[1]: Inserted module 'autofs4'
+kernel: EXT4-fs (sdc5): mounted filesystem with ordered data mode. Opts: (null)
+kernel: hid-generic 0003:09E8:0026.0005: hiddev2,hidraw4: USB HID v1.11 Device [AKAI MPK Mini Mk II] on usb-0000:00:14.0-11/input0
+kernel: hid-generic 0003:3299:4E53.0004: input,hiddev1,hidraw3: USB HID v1.10 Keyboard [E-Signal USB Gaming Mouse] on usb-0000:00:14.0-9/input1
+kernel: input: E-Signal USB Gaming Mouse as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:3299:4E53.0004/input/input11
+kernel: input: E-Signal USB Gaming Mouse Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:3299:4E53.0004/input/input10
+kernel: input: E-Signal USB Gaming Mouse System Control as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:3299:4E53.0004/input/input9
+kernel: input: E-Signal USB Gaming Mouse Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.1/0003:3299:4E53.0004/input/input8
+kernel: hid-generic 0003:3299:4E53.0003: input,hidraw2: USB HID v1.10 Mouse [E-Signal USB Gaming Mouse] on usb-0000:00:14.0-9/input0
+kernel: input: E-Signal USB Gaming Mouse as /devices/pci0000:00/0000:00:14.0/usb3/3-9/3-9:1.0/0003:3299:4E53.0003/input/input7
+kernel: hid-generic 0003:0C45:652F.0002: input,hiddev0,hidraw1: USB HID v1.11 Keyboard [SONiX USB DEVICE] on usb-0000:00:14.0-3/input1
+kernel: input: SONiX USB DEVICE as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:0C45:652F.0002/input/input6
+kernel: input: SONiX USB DEVICE Consumer Control as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:0C45:652F.0002/input/input5
+kernel: input: SONiX USB DEVICE Wireless Radio Control as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:0C45:652F.0002/input/input4
+kernel: input: SONiX USB DEVICE Keyboard as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.1/0003:0C45:652F.0002/input/input3
+kernel: hid-generic 0003:0C45:652F.0001: input,hidraw0: USB HID v1.11 Keyboard [SONiX USB DEVICE] on usb-0000:00:14.0-3/input0
+kernel: input: SONiX USB DEVICE as /devices/pci0000:00/0000:00:14.0/usb3/3-3/3-3:1.0/0003:0C45:652F.0001/input/input2
+kernel: usbhid: USB HID core driver
+kernel: usbcore: registered new interface driver usbhid
+kernel: usbhid 3-9:1.2: couldn't find an input interrupt endpoint
+kernel: hidraw: raw HID events driver (C) Jiri Kosina
+kernel: usb 3-14: SerialNumber: A28CE22F
+kernel: usb 3-14: Product: HD Pro Webcam C920
+kernel: usb 3-14: New USB device strings: Mfr=0, Product=2, SerialNumber=1
+kernel: usb 3-14: New USB device found, idVendor=046d, idProduct=0892, bcdDevice= 0.19
+kernel: usb 3-14: new high-speed USB device number 6 using xhci_hcd
+kernel: usb 3-13: Manufacturer: Blue Microphones
+kernel: usb 3-13: Product: Yeti Stereo Microphone
+kernel: usb 3-13: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+kernel: usb 3-13: New USB device found, idVendor=b58e, idProduct=9e84, bcdDevice= 1.00
+kernel: usb 3-13: new full-speed USB device number 5 using xhci_hcd
+kernel: usb 3-11: SerialNumber: 0001
+kernel: usb 3-11: Manufacturer: AKAI
+kernel: usb 3-11: Product: MPK Mini Mk II
+kernel: usb 3-11: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+kernel: usb 3-11: New USB device found, idVendor=09e8, idProduct=0026, bcdDevice= 0.00
+kernel: usb 3-11: new full-speed USB device number 4 using xhci_hcd
+kernel: clocksource: Switched to clocksource tsc
+kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x30e5517d4e4, max_idle_ns: 440795261668 ns
+kernel: tsc: Refined TSC clocksource calibration: 3392.144 MHz
+kernel: usb 3-9: Manufacturer: E-Signal
+kernel: usb 3-9: Product: USB Gaming Mouse
+kernel: usb 3-9: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+kernel: usb 3-9: New USB device found, idVendor=3299, idProduct=4e53, bcdDevice= 3.01
+kernel: [drm] Initialized nvidia-drm 0.0.0 20160202 for 0000:06:00.0 on minor 0
+kernel: [drm] [nvidia-drm] [GPU ID 0x00000600] Loading driver
+kernel: nvidia-modeset: Loading NVIDIA Kernel Mode Setting Driver for UNIX platforms  470.129.06  Thu May 12 22:42:45 UTC 2022
+kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+kernel:  sda: sda1
+kernel: usb 3-9: new full-speed USB device number 3 using xhci_hcd
+kernel: sd 1:0:0:0: [sdb] Attached SCSI disk
+kernel: sd 3:0:0:0: [sdc] Attached SCSI disk
+kernel: sd 3:0:0:0: [sdc] supports TCG Opal
+kernel: ata4.00: Enabling discard_zeroes_data
+kernel:  sdc: sdc1 sdc2 sdc3 sdc4 sdc5 sdc6
+kernel: ata4.00: Enabling discard_zeroes_data
+kernel:  sdb: sdb1
+kernel: NVRM: loading NVIDIA UNIX x86_64 Kernel Module  470.129.06  Thu May 12 22:52:02 UTC 2022
+kernel: sd 3:0:0:0: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+kernel: sd 3:0:0:0: [sdc] Mode Sense: 00 3a 00 00
+kernel: sd 3:0:0:0: [sdc] Write Protect is off
+kernel: sd 3:0:0:0: [sdc] 976773168 512-byte logical blocks: (500 GB/466 GiB)
+kernel: ata4.00: Enabling discard_zeroes_data
+kernel: scsi 3:0:0:0: Attached scsi generic sg2 type 0
+kernel: sd 1:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+kernel: sd 1:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+kernel: sd 1:0:0:0: [sdb] Write Protect is off
+kernel: sd 1:0:0:0: [sdb] 1250261615 512-byte logical blocks: (640 GB/596 GiB)
+kernel: scsi 3:0:0:0: Direct-Access     ATA      Samsung SSD 860  3B6Q PQ: 0 ANSI: 5
+kernel: scsi 1:0:0:0: Attached scsi generic sg1 type 0
+kernel: scsi 1:0:0:0: Direct-Access     ATA      WDC WD6400AAKS-0 3B01 PQ: 0 ANSI: 5
+kernel: ata2.00: configured for UDMA/133
+kernel: hub 1-1:1.0: 6 ports detected
+kernel: hub 1-1:1.0: USB hub found
+kernel: usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+kernel: usb 1-1: New USB device found, idVendor=8087, idProduct=8008, bcdDevice= 0.05
+kernel: ata2.00: 1250261615 sectors, multi 16: LBA48 NCQ (depth 32), AA
+kernel: ata2.00: ATA-8: WDC WD6400AAKS-00A7B0, 01.03B01, max UDMA/133
+kernel: ata2.00: HPA detected: current 1250261615, native 1250263728
+kernel: ata2: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+kernel: ata4.00: configured for UDMA/133
+kernel: ata4.00: disabling queued TRIM support
+kernel: ata4.00: supports DRM functions and may not be fully accessible
+kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+kernel: sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+kernel: sd 0:0:0:0: [sda] Write Protect is off
+kernel: sd 0:0:0:0: [sda] 5860533168 512-byte logical blocks: (3.00 TB/2.73 TiB)
+kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+kernel: scsi 0:0:0:0: Direct-Access     ATA      ST33000651AS     CC45 PQ: 0 ANSI: 5
+kernel: ata1.00: configured for UDMA/133
+kernel: ata1.00: 5860533168 sectors, multi 16: LBA48 NCQ (depth 32)
+kernel: ata1.00: ATA-8: ST33000651AS, CC45, max UDMA/133
+kernel: ata4.00: 976773168 sectors, multi 1: LBA48 NCQ (depth 32), AA
+kernel: ata4.00: ATA-11: Samsung SSD 860 EVO 500GB, RVT03B6Q, max UDMA/133
+kernel: ata4.00: disabling queued TRIM support
+kernel: ata4.00: supports DRM functions and may not be fully accessible
+kernel: ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+kernel: ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+kernel: nvidia 0000:06:00.0: vgaarb: changed VGA decodes: olddecodes=io+mem,decodes=none:owns=io+mem
+kernel: nvidia-nvlink: Nvlink Core is being initialized, major device number 240
+kernel: nvidia: module verification failed: signature and/or required key missing - tainting kernel
+kernel: Disabling lock debugging due to kernel taint
+kernel: nvidia: module license 'NVIDIA' taints kernel.
+kernel: nvidia: loading out-of-tree module taints kernel.
+kernel: hub 2-1:1.0: 8 ports detected
+kernel: hub 2-1:1.0: USB hub found
+kernel: usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+kernel: usb 2-1: New USB device found, idVendor=8087, idProduct=8000, bcdDevice= 0.05
+kernel: usb 3-3: Manufacturer: SONiX
+kernel: usb 3-3: Product: USB DEVICE
+kernel: usb 3-3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+kernel: usb 3-3: New USB device found, idVendor=0c45, idProduct=652f, bcdDevice= 1.03
+kernel: usb 1-1: new high-speed USB device number 2 using ehci-pci
+kernel: usb 2-1: new high-speed USB device number 2 using ehci-pci
+kernel: usb 3-3: new full-speed USB device number 2 using xhci_hcd
+kernel: ata6: DUMMY
+kernel: ata5: DUMMY
+kernel: ata4: SATA max UDMA/133 abar m2048@0xf7216000 port 0xf7216280 irq 30
+kernel: ata3: DUMMY
+kernel: ata2: SATA max UDMA/133 abar m2048@0xf7216000 port 0xf7216180 irq 30
+kernel: ata1: SATA max UDMA/133 abar m2048@0xf7216000 port 0xf7216100 irq 30
+kernel: scsi host5: ahci
+kernel: scsi host4: ahci
+kernel: scsi host3: ahci
+kernel: scsi host2: ahci
+kernel: scsi host1: ahci
+kernel: AES CTR mode by8 optimization enabled
+kernel: AVX2 version of gcm_enc/dec engaged.
+kernel: r8169 0000:03:00.0 enp3s0: renamed from eth0
+kernel: cryptd: max_cpu_qlen set to 1000
+kernel: scsi host0: ahci
+kernel: r8169 0000:03:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+kernel: r8169 0000:03:00.0 eth0: RTL8168g/8111g, bc:ee:7b:74:74:c0, XID 4c0, IRQ 31
+kernel: ahci 0000:00:1f.2: flags: 64bit ncq led clo pio slum part ems apst
+kernel: ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 6 ports 6 Gbps 0xb impl SATA mode
+kernel: ahci 0000:00:1f.2: version 3.0
+kernel: i801_smbus 0000:00:1f.3: SMBus using PCI interrupt
+kernel: lpc_ich: Resource conflict(s) found affecting gpio_ich
+kernel: ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+kernel: ACPI Warning: SystemIO range 0x0000000000001C00-0x0000000000001C2F conflicts with OpRegion 0x0000000000001C00-0x0000000000001FFF (\GPR) (20190816/utaddress-204)
+kernel: ACPI Warning: SystemIO range 0x0000000000001C00-0x0000000000001C2F conflicts with OpRegion 0x0000000000001C00-0x0000000000001C3F (\GPRL) (20190816/utaddress-204)
+kernel: ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+kernel: ACPI Warning: SystemIO range 0x0000000000001C30-0x0000000000001C3F conflicts with OpRegion 0x0000000000001C00-0x0000000000001FFF (\GPR) (20190816/utaddress-204)
+kernel: ACPI Warning: SystemIO range 0x0000000000001C30-0x0000000000001C3F conflicts with OpRegion 0x0000000000001C00-0x0000000000001C3F (\GPRL) (20190816/utaddress-204)
+kernel: ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+kernel: ACPI Warning: SystemIO range 0x0000000000001C40-0x0000000000001C4F conflicts with OpRegion 0x0000000000001C00-0x0000000000001FFF (\GPR) (20190816/utaddress-204)
+kernel: ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+kernel: ACPI Warning: SystemIO range 0x0000000000001828-0x000000000000182F conflicts with OpRegion 0x0000000000001800-0x000000000000187F (\PMIO) (20190816/utaddress-204)
+kernel: r8169 0000:03:00.0: can't disable ASPM; OS doesn't have ASPM control
+kernel: Run /init as init process
+kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+kernel: x86/mm: Checking user space page tables
+kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+kernel: Freeing unused kernel image memory: 736K
+kernel: Freeing unused kernel image memory: 2008K
+kernel: Write protecting the kernel read-only data: 26624k
+kernel: Freeing unused kernel image memory: 2752K
+kernel: Freeing unused decrypted memory: 2040K
+kernel: rtc_cmos 00:02: setting system clock to 2022-10-02T08:10:57 UTC (1664698257)
+kernel: acpi device:31: hash matches
+kernel: PM:   Magic number: 10:636:168
+kernel: evm: HMAC attrs: 0x1
+kernel: evm: security.capability
+kernel: evm: security.ima
+kernel: evm: security.apparmor
+kernel: evm: security.SMACK64MMAP
+kernel: evm: security.SMACK64TRANSMUTE
+kernel: evm: security.SMACK64EXEC
+kernel: evm: security.SMACK64
+kernel: evm: security.selinux
+kernel: evm: Initialising EVM extended attributes:
+kernel: ima: No architecture policies found
+kernel: ima: Allocated hash algorithm: sha1
+kernel: ima: No TPM chip found, activating TPM-bypass!
+kernel: integrity: Loaded X.509 cert 'Canonical Ltd. Master Certificate Authority: ad91990bc22ab1f517048c23b6655a268e345a63'
+kernel: integrity: Loading X.509 certificate: UEFI:MokListRT (MOKvar table)
+kernel: AppArmor: AppArmor sha1 policy hashing enabled
+kernel: Key type encrypted registered
+kernel: Key type big_key registered
+kernel: Key type .fscrypt registered
+kernel: Key type ._fscrypt registered
+kernel: zswap: loaded using pool lzo/zbud
+kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+kernel: blacklist: Loading compiled-in revocation X.509 certificates
+kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 9b58d12235b5231c132266f4ab6f5483081fcfad'
+kernel: Loading compiled-in X.509 certificates
+kernel: registered taskstats version 1
+kernel: sched_clock: Marking stable (580523925, 209853)->(595430336, -14696558)
+kernel: IPI shorthand broadcast: enabled
+kernel: microcode: Microcode Update Driver: v2.2.
+kernel: microcode: sig=0x306c3, pf=0x2, revision=0x28
+kernel: RAS: Correctable Errors collector initialized.
+kernel: Key type dns_resolver registered
+kernel: NET: Registered protocol family 17
+kernel: Segment Routing with IPv6
+kernel: NET: Registered protocol family 10
+kernel: drop_monitor: Initializing network drop monitor service
+kernel: EFI Variables Facility v0.08 2004-May-17
+kernel: ledtrig-cpu: registered to indicate activity on CPUs
+kernel: intel_pstate: Intel P-state driver initializing
+kernel: platform eisa.0: EISA: Detected 0 cards
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+kernel: platform eisa.0: Probing EISA bus 0
+kernel: device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
+kernel: device-mapper: uevent: version 1.0.3
+kernel: i2c /dev entries driver
+kernel: rtc_cmos 00:02: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+kernel: rtc_cmos 00:02: registered as rtc0
+kernel: rtc_cmos 00:02: RTC can wake from S4
+kernel: mousedev: PS/2 mouse device common for all mice
+kernel: i8042: PNP: No PS/2 controller found.
+kernel: hub 4-0:1.0: 6 ports detected
+kernel: hub 4-0:1.0: USB hub found
+kernel: usb usb4: SerialNumber: 0000:00:14.0
+kernel: usb usb4: Manufacturer: Linux 5.4.0-113-generic xhci-hcd
+kernel: usb usb4: Product: xHCI Host Controller
+kernel: usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+kernel: usb usb4: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.04
+kernel: hub 3-0:1.0: 14 ports detected
+kernel: hub 3-0:1.0: USB hub found
+kernel: usb usb3: SerialNumber: 0000:00:14.0
+kernel: usb usb3: Manufacturer: Linux 5.4.0-113-generic xhci-hcd
+kernel: usb usb3: Product: xHCI Host Controller
+kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+kernel: xhci_hcd 0000:00:14.0: Host supports USB 3.0 SuperSpeed
+kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 4
+kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+kernel: xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+kernel: xhci_hcd 0000:00:14.0: hcc params 0x200077c1 hci version 0x100 quirks 0x0000000000009810
+kernel: xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+kernel: xhci_hcd 0000:00:14.0: xHCI Host Controller
+kernel: uhci_hcd: USB Universal Host Controller Interface driver
+kernel: ohci-platform: OHCI generic platform driver
+kernel: ohci-pci: OHCI PCI platform driver
+kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+kernel: ehci-platform: EHCI generic platform driver
+kernel: hub 2-0:1.0: 2 ports detected
+kernel: hub 2-0:1.0: USB hub found
+kernel: usb usb2: SerialNumber: 0000:00:1d.0
+kernel: usb usb2: Manufacturer: Linux 5.4.0-113-generic ehci_hcd
+kernel: usb usb2: Product: EHCI Host Controller
+kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+kernel: ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+kernel: ehci-pci 0000:00:1d.0: irq 23, io mem 0xf7217000
+kernel: ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+kernel: ehci-pci 0000:00:1d.0: debug port 2
+kernel: ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+kernel: ehci-pci 0000:00:1d.0: EHCI Host Controller
+kernel: hub 1-0:1.0: 2 ports detected
+kernel: hub 1-0:1.0: USB hub found
+kernel: usb usb1: SerialNumber: 0000:00:1a.0
+kernel: usb usb1: Manufacturer: Linux 5.4.0-113-generic ehci_hcd
+kernel: usb usb1: Product: EHCI Host Controller
+kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.04
+kernel: ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+kernel: ehci-pci 0000:00:1a.0: irq 20, io mem 0xf7218000
+kernel: ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+kernel: ehci-pci 0000:00:1a.0: debug port 2
+kernel: ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+kernel: ehci-pci 0000:00:1a.0: EHCI Host Controller
+kernel: ehci-pci: EHCI PCI platform driver
+kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+kernel: VFIO - User Level meta-driver version: 0.3
+kernel: PPP generic driver version 2.4.2
+kernel: tun: Universal TUN/TAP device driver, 1.6
+kernel: loop: module loaded
+kernel: Linux agpgart interface v0.103
+kernel: 00:07: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+kernel: ACPI: Thermal Zone [TZ01] (30 C)
+kernel: thermal LNXTHERM:01: registered as thermal_zone1
+kernel: ACPI: Thermal Zone [TZ00] (28 C)
+kernel: thermal LNXTHERM:00: registered as thermal_zone0
+kernel: ACPI: Power Button [PWRF]
+kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+kernel: ACPI: Power Button [PWRB]
+kernel: input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+kernel: intel_idle: lapic_timer_reliable_states 0xffffffff
+kernel: intel_idle: v0.4.1 model 0x3C
+kernel: intel_idle: MWAIT substates: 0x42120
+kernel: fb0: EFI VGA frame buffer device
+kernel: fbcon: Deferring console take-over
+kernel: efifb: Truecolor: size
