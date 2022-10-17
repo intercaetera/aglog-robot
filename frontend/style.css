@@ -9,3 +9,48 @@
 a {
   color: #60b5cc;
 }
+
+.container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.small-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.small-container h1, .small-container h3 {
+  text-align: center;
+}
+
+.small-container .name-input {
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.form-field {
+  display: flex;
+}
+
+.generated-field {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  background: lightgray;
+}
+
+.generated-field textarea {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  height: 30rem;
+}
+
+.generated-field textarea:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+}
