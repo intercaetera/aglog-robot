@@ -9,4 +9,8 @@ defmodule AglogRobotWeb.Router do
     pipe_through :api
     get "/:name", GeneratorController, :show
   end
+
+  scope "/", AglogRobotWeb do
+    get "/", WebController, :index
+  end
 end
