@@ -6,7 +6,7 @@ defmodule AglogRobotWeb.WebController do
   end
 
   defp render_elm_app() do
-    Application.app_dir(:aglog_robot, "priv/static/web/index.html")
+    Application.app_dir(:aglog_robot, "priv/static/web/dist/index.html")
     |> File.read!()
   end
 end

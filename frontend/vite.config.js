@@ -13,5 +13,5 @@ export default defineConfig({
     }
   },
   plugins: [elmPlugin()],
-  base: process.env.NODE_ENV === "production" ? "/web/" : "/",
+  base: '/web/dist/',
 });
