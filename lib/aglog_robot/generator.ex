@@ -24,7 +24,7 @@ defmodule AglogRobot.Generator do
   def split_long_line(line) do
     line
     |> String.split(" ")
-    |> Enum.chunk_every(13)
+    |> Enum.chunk_every(18)
     |> Enum.map(&Enum.join(&1, " "))
   end
 
