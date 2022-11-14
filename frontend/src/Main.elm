@@ -4,6 +4,7 @@ import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Html.Events exposing (onClick, onInput)
+import File.Download as Download
 import Http
 
 
@@ -32,12 +33,22 @@ init _ =
 type Msg
     = Name String
     | Generate String
+    | Download
     | GotCode (Result Http.Error String)
 
+
+downloadFile : GeneratedCodeReq -> Cmd Msg
+downloadFile generatedCode =
+    case generatedCode of
+        Success content -> Download.string "example.log" "text/plain" content
+        _ -> Cmd.none
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
+        Download ->
+            ( model, downloadFile model.generatedCode )
+
         Name name ->
             ( { model | name = name }, Cmd.none )
 
@@ -86,6 +97,7 @@ view model =
                     ]
                     []
                 , button [ onClick (Generate model.name) ] [ text "Generate" ]
+                , button [ onClick (Download) ] [ text "Download" ]
                 ]
             ]
         , div [ class "generated-field" ]
