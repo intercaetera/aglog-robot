@@ -1,18 +1,26 @@
 # AglogRobot
 
-To start your Phoenix server:
+Generate logs from random stuff.
 
-  * Install dependencies with `mix deps.get`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Requirements
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- Elixir 1.14.0 OTP 25
+- Node 18.7.0
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## Run dev
 
-## Learn more
+```
+# TTY 1
+iex -S mix phx.server
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+# TTY 2
+cd frontend && npm run dev
+```
+
+## Run prod
+
+```
+mix deps.get
+mix web
+mix phx.server
+```
